@@ -6,13 +6,15 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    color:#250733;
 }
 
 
 /* Main Menu and Logo*/
 
 #menu-links{
-    background-color:rgba(37, 7, 51, 1);
+    background-color: #eadadf;
+    border-bottom:4px solid #f8f4e3;
     height:70px;
     margin: 0 auto;
     padding:0 40px;
@@ -35,7 +37,7 @@
 }
 
 #menu-links a {
-    color:#f8f4e3;
+    color:#250733;
     text-decoration: none;
     text-align:center;
 }
@@ -46,10 +48,10 @@
 }
 
 #menu-links a:hover{
-    border-bottom: 1px solid #f8f4e3;
+    border-bottom: 1px solid #250733;;
 }
 
-/*hero image*/
+/*hero image & text overlay*/
 
 #hero-image-container {
     height: 600px;
@@ -72,7 +74,7 @@
 }
 
 #hero-image-text-overlay{
-    background-color:rgba(248, 244, 227, .5);
+    background-color:rgba(234, 218, 223,.5);
     width:80%;
     grid-column: 1;
     grid-row:1;
@@ -86,4 +88,61 @@
     font-size: 200%;
     text-transform:uppercase;
     letter-spacing: 6px;
+}
+
+/*About section*/
+
+#about-section{
+    background-color:#eadadf ;
+    width:100%;
+    height:400px;
+    overflow:hidden;
+    border-top:4px solid #f8f4e3;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-me-image{
+    background:url('../images/about-me-image.jpg') no-repeat center center;
+    height:250px;
+    width:250px;
+    border-radius: 50%;
+    border:2px solid #f8f4e3;
+}
+
+#about-container{
+    display:grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    grid-auto-rows: minmax(100px, auto);
+    padding:20px;
+    align-items: center;
+    justify-items: center;  
+    
+}
+
+
+.about-me-heading{
+    grid-column: 1/3;
+    justify-content: center;
+    align-content: center;
+    font-family: "Playfair Display", sans-serif; 
+    font-size:200%;
+    text-transform:uppercase;
+    letter-spacing: 6px;
+    background-color:rgba(255, 255, 255, 0.2);
+    padding:20px;
+    margin-bottom: 20px;
+
+}
+
+.about-me-column-1{
+        grid-column: 1/2;  
+    }
+
+.about-me-column-2{
+    grid-row: 2/4;
+    grid-column:2/3;
+
+    
 }
