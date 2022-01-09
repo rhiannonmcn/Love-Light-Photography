@@ -12,7 +12,7 @@
 /* Main Menu and Logo*/
 
 #menu-links{
-    background-color:#250733;
+    background-color:rgba(37, 7, 51, 1);
     height:70px;
     margin: 0 auto;
     padding:0 40px;
@@ -21,7 +21,6 @@
     grid-template-rows: 1fr;  
     justify-items: center;
     align-items:center;
-    border: 1px solid #fff;
     text-transform:Uppercase;
 }
 
@@ -30,7 +29,7 @@
     display:grid;
     grid-auto-columns: minmax(100px, auto);
     justify-items: center;
-    align-content: center;
+    align-items: center;
 
    
 }
@@ -50,4 +49,41 @@
     border-bottom: 1px solid #f8f4e3;
 }
 
+/*hero image*/
 
+#hero-image-container {
+    height: 600px;
+    width:100%;
+    overflow: hidden;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;  
+    justify-items: center;
+    align-items:center;
+}
+
+#hero-image{
+    background: url('../images/hero-image-home-page.jpg') no-repeat center top;
+    background-size:cover;
+    height:600px;
+    width:100%;
+    grid-column: 1;
+    grid-row:1;
+}
+
+#hero-image-text-overlay{
+    background-color:rgba(248, 244, 227, .5);
+    width:80%;
+    grid-column: 1;
+    grid-row:1;
+    text-align: center;
+    padding:40px;
+    line-height:300%;
+}
+
+#hero-image-text-overlay h1{
+    font-family: "Playfair Display", sans-serif;
+    font-size: 200%;
+    text-transform:uppercase;
+    letter-spacing: 6px;
+}
