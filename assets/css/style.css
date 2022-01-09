@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display:wght@500&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+/* Main Menu and Logo*/
+
+#menu-links{
+    background-color:#250733;
+    height:70px;
+    margin: 0 auto;
+    padding:0 40px;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;  
+    justify-items: center;
+    align-items:center;
+    border: 1px solid #fff;
+    text-transform:Uppercase;
+}
+
+#menu-links li{ 
+    list-style-type: none;
+    display:grid;
+    grid-auto-columns: minmax(100px, auto);
+    justify-items: center;
+    align-content: center;
+
+   
+}
+
+#menu-links a {
+    color:#f8f4e3;
+    text-decoration: none;
+    text-align:center;
+}
+
+.logo{
+    grid-column: 3/4;
+    grid-row:1;
+}
+
+#menu-links a:hover{
+    border-bottom: 1px solid #f8f4e3;
+}
+
+
