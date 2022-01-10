@@ -6,15 +6,14 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-    color:#250733;
+    color:#05053b;
 }
 
 
 /* Main Menu and Logo*/
 
 #menu-links{
-    background-color: #eadadf;
-    border-bottom:4px solid #f8f4e3;
+    background-color: #05053b;
     height:70px;
     margin: 0 auto;
     padding:0 40px;
@@ -37,9 +36,10 @@
 }
 
 #menu-links a {
-    color:#250733;
+    color:#fcfcfc;
     text-decoration: none;
     text-align:center;
+    font-weight: 600;
 }
 
 .logo{
@@ -48,7 +48,7 @@
 }
 
 #menu-links a:hover{
-    border-bottom: 1px solid #250733;;
+    border-bottom: 2px solid #fcfcfc;
 }
 
 /*hero image & text overlay*/
@@ -74,7 +74,7 @@
 }
 
 #hero-image-text-overlay{
-    background-color:rgba(234, 218, 223,.5);
+    background-color:rgba(255, 255, 255,.5);
     width:80%;
     grid-column: 1;
     grid-row:1;
@@ -93,11 +93,10 @@
 /*About section*/
 
 #about-section{
-    background-color:#eadadf ;
+    background-color:#efefef;
     width:100%;
     height:400px;
     overflow:hidden;
-    border-top:4px solid #f8f4e3;
     display:grid;
     justify-content: center;
     align-items: center;
