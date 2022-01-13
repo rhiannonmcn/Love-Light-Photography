@@ -181,7 +181,7 @@
     justify-items: center;
     align-items: center;
     grid-column-gap: 1rem;
-
+    padding:20px;
 }
 
 
@@ -258,4 +258,25 @@
 .story-overlay-3 {
     grid-column: 3/4;
     grid-row: 2/3;
+}
+
+/* Footer section */
+
+footer{
+    background-color:#6e6ea5;
+}
+
+#footer-icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-column-gap: 1rem;
+    padding:20px;
+}
+
+#footer-icons img{
+    width: 100%;
+    max-width: 50px;
+    height: auto;
 }
