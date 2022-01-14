@@ -15,8 +15,7 @@
 
 #menu-links {
     background-color: #597680;
-    height: 70px;
-    margin: 0 auto;
+    height: 80px;
     padding: 0 40px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -40,14 +39,14 @@
     color: #fcfcfc;
     text-decoration: none;
     text-align: center;
-    padding: 8px 0;
+    padding-bottom: 8px;
 }
 
 .logo {
     grid-column: 3/4;
     grid-row: 1;
-
 }
+
 
 #menu-links a:hover {
     border-bottom: 0.5px solid #fcfcfc;
