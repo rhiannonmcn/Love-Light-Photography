@@ -15,7 +15,7 @@
 
 #menu-links {
     background-color: #597680;
-    height: 80px;
+    height: 100px;
     padding: 0 40px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -48,7 +48,11 @@
 }
 
 
-#menu-links a:hover {
+#logo-image{
+    width:180px;
+}
+
+.navbar-links a:hover {
     border-bottom: 0.5px solid #fcfcfc;
 
 }
