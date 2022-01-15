@@ -31,32 +31,28 @@
     grid-auto-columns: minmax(160px, auto);
     justify-items: center;
     align-items: center;
-
-
 }
 
 #menu-links a {
     color: #fcfcfc;
     text-decoration: none;
     text-align: center;
-    padding-bottom: 8px;
 }
 
 .logo {
     grid-column: 3/4;
     grid-row: 1;
+    margin:0 20px;
 }
 
-
-#logo-image{
-    width:180px;
+.navbar-links{
+    padding:40px 0;
 }
 
-.navbar-links a:hover {
-    border-bottom: 0.5px solid #fcfcfc;
-
+.navbar-links:hover{
+    background-color:#5e7f8a;
+    transition: all 1s ease-in; 
 }
-
 
 /*hero image & text overlay*/
 
@@ -120,6 +116,8 @@
     color: #34454A;
     text-align: center;
 }
+
+
 
 /*About section*/
 
