@@ -200,7 +200,7 @@
 }
 
 .story-1-image {
-    background: url('../images/story-1-image.jpg') no-repeat center center;
+    background: url('../images/story-image-1.jpg') no-repeat center center;
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -211,7 +211,7 @@
 }
 
 .story-2-image {
-    background: url('../images/story-2-image.jpg') no-repeat center center;
+    background: url('../images/story-image-2.jpg') no-repeat center center;
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -221,7 +221,7 @@
 }
 
 .story-3-image {
-    background: url('../images/story-3-image.jpg') no-repeat center center;
+    background: url('../images/story-image-3.jpg') no-repeat center center;
     height: 200px;
     width: 200px;
     border-radius: 50%;
