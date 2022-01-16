@@ -115,12 +115,11 @@ li.active {
     justify-content: center;
     align-content: center;
     width: 100%;
-    height: 200px;
 
 }
 
 #quote-section blockquote {
-    margin-bottom: 20px;
+    padding: 20px;
     font-family: "Cormorant Garamond", sans-serif;
     font-style: italic;
     font-size: 2.5rem;
@@ -135,7 +134,6 @@ li.active {
 #about-section {
     background-color: #efefef;
     width: 100%;
-    overflow: hidden;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -143,8 +141,8 @@ li.active {
 
 #about-me-image {
     background: url('../images/about-me-image.jpg') no-repeat center center;
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     border: 2px solid #fcfcfc
 }
@@ -167,8 +165,6 @@ li.active {
     font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 6px;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
     border-bottom: 1px solid #fcfcfc;
 
 }
@@ -356,6 +352,7 @@ footer {
         grid-row:1/2;
         text-align: center;
         padding: 20px 0;
+        font-size:2.5rem;
     }
 
     .about-me-column-1{
@@ -390,6 +387,9 @@ footer {
 /* For small screens of 550px and down */
 
 @media screen and (max-width:550px){
+
+
+    /* Navigation bar */
 
     #menu-links {
         display:block;
