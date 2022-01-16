@@ -54,6 +54,11 @@
     transition: all 1s ease-in;
 }
 
+.navbar-links a:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
 /*hero image & text overlay*/
 
 #hero-image-container {
@@ -294,3 +299,5 @@ footer {
     transform: scale(1.3);
     transition: all 0.3s ease-in-out;
 }
+
+/* Media Queries */
