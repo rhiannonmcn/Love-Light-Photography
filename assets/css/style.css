@@ -340,6 +340,39 @@ footer {
         transform: scale(1.1);
     }
 
+    /*About Section */
+
+    #about-section {
+        grid-template-columns: 1fr;
+        height:100%;
+    }
+
+    #about-container {
+        grid-template-columns:1fr;
+    }
+
+    .about-me-heading{
+        grid-column:1/2;
+        grid-row:1/2;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .about-me-column-1{
+        max-width:100%;
+        grid-row:2/3;
+        justify-self: unset;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .about-me-column-2{
+        grid-row:3/4;
+        justify-self: unset;
+        grid-column:1/2;
+        padding: 20px 0;
+    }
+
     /* Stories Section */
 
     #stories-container h2 {
