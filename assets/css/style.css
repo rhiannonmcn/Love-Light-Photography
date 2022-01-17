@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=EB+Garamond&display=swap');
 
 * {
-    font-family: "Quicksand", sans-serif;
+    font-family: "EB Garamond", sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
     padding: 0;
@@ -37,7 +37,7 @@
     color: #fcfcfc;
     text-decoration: none;
     text-align: center;
-    font-size:1rem;
+    font-size: 1.2rem;
 }
 
 .logo {
@@ -46,9 +46,9 @@
     margin: 0 20px;
 }
 
-#logo-image{
-    height:100%;
-    width:100%;
+#logo-image {
+    height: 100%;
+    width: 100%;
 }
 
 li.navbar-links,
@@ -92,20 +92,20 @@ li.active {
 }
 
 #hero-image-text-overlay {
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .7);
     width: 60%;
     grid-column: 1;
     grid-row: 1;
     text-align: center;
-    padding: 40px;
+    padding: 30px;
     line-height: 200%;
 }
 
 #hero-image-text-overlay h1 {
     font-family: "Cormorant Garamond", sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
 }
 
 #hero-image-text-overlay h2 {
@@ -125,7 +125,8 @@ li.active {
     padding: 20px;
 }
 
-#blockquote, #blockquote q{
+#blockquote,
+#blockquote q {
     font-family: "Cormorant Garamond", sans-serif;
     font-style: italic;
     font-size: 2.5rem;
@@ -308,7 +309,7 @@ footer {
 @media screen and (max-width:950px) {
 
     /* Navigation bar */
-    
+
     #menu-links {
         height: 100%;
         grid-template-columns: repeat(4, 1fr);
@@ -316,7 +317,7 @@ footer {
         align-items: center;
     }
 
-    #menu-links li{
+    #menu-links li {
         grid-auto-columns: minmax(120px, auto);
     }
 
@@ -338,33 +339,33 @@ footer {
 
     #about-section {
         grid-template-columns: 1fr;
-        height:100%;
+        height: 100%;
     }
 
     #about-container {
-        grid-template-columns:1fr;
+        grid-template-columns: 1fr;
     }
 
-    .about-me-heading{
-        grid-column:1/2;
-        grid-row:1/2;
+    .about-me-heading {
+        grid-column: 1/2;
+        grid-row: 1/2;
         text-align: center;
-        font-size:2.2rem;
+        font-size: 2.2rem;
         letter-spacing: 4px;
     }
 
-    .about-me-column-1{
-        max-width:90%;
-        grid-row:2/3;
+    .about-me-column-1 {
+        max-width: 90%;
+        grid-row: 2/3;
         justify-self: unset;
         text-align: center;
         padding: 20px 0;
     }
 
-    .about-me-column-2{
-        grid-row:3/4;
+    .about-me-column-2 {
+        grid-row: 3/4;
         justify-self: unset;
-        grid-column:1/2;
+        grid-column: 1/2;
         padding: 20px 0;
     }
 
@@ -384,26 +385,27 @@ footer {
 
 /* For small screens of 550px and down */
 
-@media screen and (max-width:550px){
+@media screen and (max-width:550px) {
 
     /* Navigation bar */
 
     #menu-links {
-        display:block;
-        width:100%; 
-        padding:0px;  
+        display: block;
+        width: 100%;
+        padding: 0px;
     }
 
-    li.navbar-links, li.active{
-        padding:20px 0;
+    li.navbar-links,
+    li.active {
+        padding: 20px 0;
     }
 
     /* Hero Image Section*/
 
     #hero-image-text-overlay {
-        width:90%;
-        min-width:280px;
-        padding:20px;
+        width: 90%;
+        min-width: 280px;
+        padding: 20px;
         line-height: 170%;
     }
 
