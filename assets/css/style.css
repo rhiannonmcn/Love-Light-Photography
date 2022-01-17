@@ -46,6 +46,11 @@
     margin: 0 20px;
 }
 
+#logo-image{
+    height:100%;
+    width:100%;
+}
+
 li.navbar-links,
 li.active {
     padding: 40px 0;
