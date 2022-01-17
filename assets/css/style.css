@@ -114,19 +114,19 @@ li.active {
     justify-content: center;
     align-content: center;
     width: 100%;
-
 }
 
 #quote-section blockquote {
     padding: 20px;
+}
+
+#blockquote, #blockquote q{
     font-family: "Cormorant Garamond", sans-serif;
     font-style: italic;
     font-size: 2.5rem;
     color: #34454A;
     text-align: center;
 }
-
-
 
 /*About section*/
 
@@ -153,8 +153,6 @@ li.active {
     padding: 20px 40px;
     justify-items: center;
     align-items: center;
-
-
 }
 
 .about-me-heading {
@@ -164,7 +162,6 @@ li.active {
     text-transform: uppercase;
     letter-spacing: 6px;
     border-bottom: 1px solid #fcfcfc;
-
 }
 
 .about-me-column-1 {
@@ -212,7 +209,6 @@ li.active {
     border: 2px solid #efefef;
     margin: 20px;
     align-self: baseline;
-
 }
 
 .story-2-image {
@@ -313,7 +309,6 @@ footer {
         grid-template-columns: repeat(4, 1fr);
         justify-items: center;
         align-items: center;
-
     }
 
     #menu-links li{
@@ -385,7 +380,6 @@ footer {
 /* For small screens of 550px and down */
 
 @media screen and (max-width:550px){
-
 
     /* Navigation bar */
 
