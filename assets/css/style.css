@@ -349,12 +349,12 @@ footer {
         grid-column:1/2;
         grid-row:1/2;
         text-align: center;
-        padding: 20px 0;
-        font-size:2.5rem;
+        font-size:2.2rem;
+        letter-spacing: 4px;
     }
 
     .about-me-column-1{
-        max-width:100%;
+        max-width:90%;
         grid-row:2/3;
         justify-self: unset;
         text-align: center;
