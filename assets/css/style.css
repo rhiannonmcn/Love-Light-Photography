@@ -15,7 +15,6 @@
 
 #menu-links {
     background-color: #597680;
-    height: 100px;
     padding: 0 40px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -67,8 +66,10 @@ li.active {
 
 .navbar-links a:hover {
     transform: scale(1.2);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.8s ease-in;
 }
+
+/* Homepage styles start here */
 
 /*hero image & text overlay*/
 
@@ -303,9 +304,38 @@ footer {
     transition: all 0.3s ease-in-out;
 }
 
+/* Gallery pasge styles start here */
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content:center;
+}
+
+.gallery-single-image {
+   margin: 5px 5px;
+    filter: grayscale(1);
+    overflow: hidden;
+}
+
+.gallery-photo {
+    height: 15.625rem;
+}
+
+.gallery-single-image:hover {
+    filter: none;
+    transition: all 0.6s ease-in-out;
+}
+
+.gallery-photo:hover{
+    transform: scale(1.3);
+    transition: all 2s ease-in-out;
+}
 /* Media Queries */
 
 /* For medium screens of 950px wide and down */
+
 
 @media screen and (max-width:950px) {
 
@@ -335,6 +365,8 @@ footer {
     .navbar-links a:hover {
         transform: scale(1.1);
     }
+
+    /* Homepage styles start here */
 
     /*About Section */
 
@@ -401,6 +433,8 @@ footer {
         padding: 20px 0;
     }
 
+    /*Homepage styles start here */
+
     /* Hero Image Section*/
 
     #hero-image-text-overlay {
@@ -413,5 +447,12 @@ footer {
     #hero-image-text-overlay h1 {
         font-size: 1.5rem;
         letter-spacing: 4px;
+    }
+
+    /*Gallery page styles */
+
+    .gallery-photo{
+        width:100%;
+        height:fit-content;
     }
 }
