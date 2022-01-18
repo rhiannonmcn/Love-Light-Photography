@@ -157,7 +157,7 @@ li.active {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-auto-rows: minmax(100px, auto);
-    padding: 20px 40px;
+    padding: 20px 0;
     justify-items: center;
     align-items: center;
 }
