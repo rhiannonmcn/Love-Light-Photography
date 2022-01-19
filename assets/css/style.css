@@ -69,6 +69,28 @@ li.active {
     transition: all 0.8s ease-in;
 }
 
+/* Page H1s excluding the homepage */
+
+.page-h1{
+    font-family: "Cormorant Garamond", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size:5rem ;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Page opening paragraph excluding homepage */
+
+.page-opening-text p{
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    padding:80px 100px;
+    background-color: #efefef;
+    width: 100%;
+    text-align:center;
+}
+
 /* Homepage styles start here */
 
 /*hero image & text overlay*/
@@ -306,7 +328,11 @@ footer {
 
 /* Gallery pasge styles start here */
 
-#gallery {
+#gallery{
+    margin: 20px 0;
+}
+
+.gallery-container {
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
@@ -455,6 +481,6 @@ footer {
 
     .gallery-photo{
         width:100%;
-        height:fit-content;
+        height:unset;
     }
 }
