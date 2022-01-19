@@ -8,6 +8,7 @@
     margin: 0;
     box-sizing: border-box;
     color: #34454A;
+    outline:1px solid #f00 !important;
 }
 
 h2 {
@@ -337,7 +338,6 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     justify-self: center;
     align-self: center;
-    padding:40px;
 }
 
 .package-container h2 {
@@ -350,7 +350,7 @@ footer {
 }
 
 .package-options {
-    padding: 0 20px;
+    padding: 20px;
     justify-self: center;
     align-self: center;
 }
@@ -359,14 +359,14 @@ footer {
     height: 300px;
     width: 300px;
     object-fit: cover;
-    border: #34454A solid 2px;;
+    border: #34454A solid 2px;
     outline: 1px solid #fcfcfc;
     outline-offset: -20px;
 }
 
 .package-options p,
 .package-options h3 {
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -381,7 +381,7 @@ footer {
     outline-offset: -20px;
 }
 
-/* Gallery pasge styles start here */
+/* Gallery page styles start here */
 
 #gallery {
     margin: 20px 0;
@@ -493,6 +493,25 @@ footer {
         grid-row-gap: 1rem;
         padding: 20px;
     }
+
+    /* Packages page */
+
+    .package-options p,
+    .package-options h3 {
+        padding:10px 0;
+        font-size: 1.1rem;
+        line-height: unset;
+    }
+
+    #packages>div:nth-child(even) {
+        outline: #fcfcfc solid 3px;
+        outline-offset: -8px;
+    }
+
+    #packages>div:nth-child(odd) {
+        outline: #efefef solid 3px;
+        outline-offset: -8px;
+    }
 }
 
 /* For small screens of 550px and down */
@@ -539,6 +558,21 @@ footer {
     #hero-image-text-overlay h1 {
         font-size: 1.5rem;
         letter-spacing: 4px;
+    }
+
+    /* Packages page styles */
+
+    .package-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .package-container h2 {
+        grid-column: 1;
+    }
+
+    .package-options{
+        padding:10px;
     }
 
     /*Gallery page styles */
