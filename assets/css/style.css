@@ -10,7 +10,6 @@
     color: #34454A;
 }
 
-
 /* Main Menu and Logo*/
 
 #menu-links {
@@ -113,7 +112,6 @@ li.active {
     grid-column: 1;
     grid-row: 1;
 }
-
 
 #hero-image-text-overlay {
     background-color: rgba(255, 255, 255, .7);
@@ -363,7 +361,6 @@ footer {
 /* Media Queries */
 
 /* For medium screens of 950px wide and down */
-
 
 @media screen and (max-width:950px) {
 
