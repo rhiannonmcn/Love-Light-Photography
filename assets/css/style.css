@@ -568,6 +568,7 @@ footer {
 
     .package-container h2 {
         grid-column: 1;
+        font-size: 2rem;
     }
 
     .package-options{
