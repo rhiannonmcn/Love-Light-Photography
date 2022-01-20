@@ -428,6 +428,7 @@ footer {
         grid-template-columns: repeat(4, 1fr);
         justify-items: center;
         align-items: center;
+        padding:20px;
     }
 
     #menu-links li {
@@ -442,6 +443,7 @@ footer {
     li.navbar-links,
     li.active {
         grid-row: 2/3;
+        padding: 20px 5px;
     }
 
     /* Homepage styles start here */
@@ -500,6 +502,7 @@ footer {
         padding:10px 0;
         font-size: 1.1rem;
         line-height: unset;
+        letter-spacing: 2px;
     }
 
     #packages>div:nth-child(even) {
