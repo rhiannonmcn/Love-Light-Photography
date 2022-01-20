@@ -8,6 +8,7 @@
     margin: 0;
     box-sizing: border-box;
     color: #34454A;
+    outline: 1px solid #f00 !important;
 }
 
 h2 {
