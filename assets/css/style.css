@@ -48,6 +48,8 @@ p {
     grid-auto-columns: minmax(160px, auto);
     justify-items: center;
     align-items: center;
+    width:100%;
+    height:100%;
 }
 
 #menu-links a {
@@ -66,11 +68,6 @@ p {
 #logo-image {
     height: 100%;
     width: 100%;
-}
-
-li.navbar-links,
-li.active {
-    padding: 38px 8px;
 }
 
 .active {
@@ -421,14 +418,13 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
-    margin: 20px 0px;
-    padding: 0 20px;
+    margin:10px 0;
 }
 
 .contact-form {
     background-color: #efefef;
     max-width: 100%;
-    padding: 40px;
+    padding: 25px;
     outline: #fcfcfc solid 5px;
     outline-offset: -20px;
 }
@@ -451,7 +447,7 @@ footer {
     border-radius: 2px;
 }
 
-.contact-forrm input[type="text"],
+.contact-form input[type="text"],
 ::placeholder,
 .contact-form textarea {
     padding: 5px 5px;
@@ -492,11 +488,14 @@ footer {
     outline: #efefef solid 5px;
     outline-offset: -20px;
     width: 100%;
-    height: 100%;
 }
 
 .contact-details div {
-    padding: 40px 0;
+    padding: 40px 10px;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 /* Media Queries */
@@ -505,6 +504,14 @@ footer {
 
 @media screen and (max-width:950px) {
 
+    h2 {
+        font-size: 2.3rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
     /* Navigation bar */
 
     #menu-links {
@@ -512,7 +519,6 @@ footer {
         grid-template-columns: repeat(4, 1fr);
         justify-items: center;
         align-items: center;
-        padding: 20px;
     }
 
     #menu-links li {
@@ -598,6 +604,22 @@ footer {
         outline: #efefef solid 3px;
         outline-offset: -8px;
     }
+
+    /* Contact page styles start her */
+
+    .contact-methods {
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+    }
+
+    .contact-details h2,
+    .contact-details p {
+        text-align: center;
+    }
+
+    .contact-form, .contact-details{
+        outline-offset: -10px;
+    }
 }
 
 /* For small screens of 550px and down */
@@ -649,6 +671,11 @@ footer {
         letter-spacing: 2px;
     }
 
+    #about-me-image{
+        height:200px;
+        width:200px;
+    }
+
     /* Packages page styles */
 
     .package-container {
@@ -670,5 +697,18 @@ footer {
     .gallery-photo {
         width: 100%;
         height: unset;
+    }
+
+    /*Contact page styles start here */
+    iframe{
+        display:grid;
+        justify-self: center;
+        align-self: center;
+        width:250px;
+        height:150px;
+    }
+
+    contact-details p {
+        font-size: 1rem;
     }
 }
