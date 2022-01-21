@@ -47,10 +47,11 @@
             </p>
         </div>
     </section>
-    <!--Contact Form Section-->
+    <!--Contact Methods Section-->
     <section class="contact-methods">
-        <h2>Contact Form</h2>
         <form method="get" action="contact-form-message.html" class="contact-form">
+            <h2>Contact Form</h2>
+
             <label for="fname">First Name:</label>
             <input class="text-input" id="fname" name="first_name" type="text" required>
 
@@ -61,17 +62,21 @@
             <input type="email" class="text-input" id="email" name="email_address" required>
 
             <label for="your-message">Your Message:</label>
-            <textarea name="your-message" id="your-message" placeholder="Type your message here..." rows="10"
+            <textarea name="your-message" class="your-message" placeholder="Type your message here..." rows="10"
                 cols="40"></textarea>
 
-            <input class="join-button" type="submit" value="Let's Chat">
+            <input class="lets-chat-button" type="submit" value="Let's Chat">
         </form>
         <div class="contact-details">
-            <h3>Contact</h3>
-            <p>+353 12 3456789</p>
-            <p>lovelightphotography@gmail.com</p>
-            <h3>Location</h3>
-            <p> Tralee, Co. Kerry</p>
+            <div>
+                <h2>Contact</h2>
+                <p>+353 12 3456789</p>
+                <p>lovelightphotography@gmail.com</p>
+            </div>
+            <div>
+                <h2>Location</h2>
+                <p> Tralee, Co. Kerry</p>
+            </div>
         </div>
     </section>
     <!-- Footer section-->

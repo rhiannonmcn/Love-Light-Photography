@@ -415,6 +415,90 @@ footer {
     transition: all 2s ease-in-out;
 }
 
+/* Contact Page styles start here*/
+.contact-methods {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin: 20px 0px;
+    padding:0 20px;
+}
+
+.contact-form {
+    background-color: #efefef;
+    max-width: 100%;
+    padding: 40px;
+    outline: #fcfcfc solid 5px;
+    outline-offset: -20px;
+}
+
+.contact-form label {
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background-color: #fcfcfc;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #34454A;
+    border-radius: 2px;
+}
+
+.contact-forrm input[type="text"],
+::placeholder,
+.contact-form textarea {
+    padding: 5px 5px;
+}
+
+.your-message {
+    width: 100%;
+    height: 100%;
+    margin: 5px 0 20px;
+    background-color: #fcfcfc;
+    border: 1px solid #34454A;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #fcfcfc;
+}
+
+.lets-chat-button {
+    margin-top: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #fcfcfc;
+    border: 1px solid #34454A;
+    border-radius: 2px;
+}
+
+.lets-chat-button:hover {
+    background-color: #5e7f8a;
+    color: #fcfcfc;
+}
+
+.contact-details{
+display:grid;
+  justify-content: center;
+  align-content: center;
+    outline: #efefef solid 5px;
+    outline-offset: -20px;
+    width:100%;
+    height:100%;
+}
+
+.contact-details div{
+    padding: 50px 0;
+}
+
 /* Media Queries */
 
 /* For medium screens of 950px wide and down */
@@ -428,7 +512,7 @@ footer {
         grid-template-columns: repeat(4, 1fr);
         justify-items: center;
         align-items: center;
-        padding:20px;
+        padding: 20px;
     }
 
     #menu-links li {
@@ -463,7 +547,7 @@ footer {
         grid-column: 1/2;
         grid-row: 1/2;
         text-align: center;
-        font-size: 2.2rem;
+        font-size: 1.8rem;
         letter-spacing: 4px;
     }
 
@@ -499,7 +583,7 @@ footer {
 
     .package-options p,
     .package-options h3 {
-        padding:10px 0;
+        padding: 10px 0;
         font-size: 1.1rem;
         line-height: unset;
         letter-spacing: 2px;
@@ -536,14 +620,14 @@ footer {
     /* Page H1s excluding the homepage */
 
     .page-h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     /* Page opening paragraphs excluding homepage */
 
     .page-opening-text p {
         padding: 20px 40px;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     /*Homepage styles start here */
@@ -554,12 +638,15 @@ footer {
         width: 90%;
         min-width: 280px;
         padding: 20px;
-        line-height: 170%;
     }
 
     #hero-image-text-overlay h1 {
         font-size: 1.5rem;
         letter-spacing: 4px;
+    }
+
+    #hero-image-text-overlay h2 {
+        letter-spacing: 2px;
     }
 
     /* Packages page styles */
@@ -574,8 +661,8 @@ footer {
         font-size: 2rem;
     }
 
-    .package-options{
-        padding:10px;
+    .package-options {
+        padding: 10px;
     }
 
     /*Gallery page styles */
