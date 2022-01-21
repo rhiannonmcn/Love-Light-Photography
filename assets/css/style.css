@@ -8,6 +8,7 @@
     margin: 0;
     box-sizing: border-box;
     color: #34454A;
+    outline:solid 1px #f00 !important;
 }
 
 h2 {
@@ -56,13 +57,11 @@ p {
     color: #fcfcfc;
     text-decoration: none;
     text-align: center;
-    font-size: 1.2rem;
 }
 
 .logo {
     grid-column: 3/4;
     grid-row: 1;
-    margin: 0 20px;
 }
 
 #logo-image {
@@ -130,7 +129,6 @@ footer {
 #footer-icons img {
     width: 100%;
     max-width: 50px;
-    height: auto;
 }
 
 #footer-icons img:hover {
@@ -240,7 +238,6 @@ footer {
 .about-me-column-1 {
     grid-column: 1/2;
     padding: 0 40px;
-    letter-spacing: 2px;
     max-width: 500px;
 }
 
@@ -504,6 +501,8 @@ footer {
 
 @media screen and (max-width:950px) {
 
+    /*All site styles across all pages*/
+
     h2 {
         font-size: 2.3rem;
     }
@@ -553,7 +552,6 @@ footer {
         grid-column: 1/2;
         grid-row: 1/2;
         text-align: center;
-        font-size: 1.8rem;
         letter-spacing: 4px;
     }
 
@@ -610,11 +608,6 @@ footer {
     .contact-methods {
         grid-template-columns: 1fr;
         padding: 0 10px;
-    }
-
-    .contact-details h2,
-    .contact-details p {
-        text-align: center;
     }
 
     .contact-form, .contact-details{
@@ -708,7 +701,7 @@ footer {
         height:150px;
     }
 
-    contact-details p {
+    .contact-details p {
         font-size: 1rem;
     }
 }
