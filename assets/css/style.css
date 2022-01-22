@@ -191,18 +191,14 @@ footer {
     width: 100%;
 }
 
-#quote-section blockquote {
-    padding: 20px;
-}
-
-#blockquote,
-#blockquote q {
+#quote-section h2 {
     font-family: "Cormorant Garamond", sans-serif;
     font-style: italic;
-    font-size: 2.5rem;
+    font-size:2rem;
     line-height: 2.5rem;
     color: #34454A;
     text-align: center;
+    padding: 40px 0;
 }
 
 /*About section*/
@@ -234,7 +230,6 @@ footer {
 
 .about-me-heading {
     grid-column: 1/3;
-    border-bottom: 1px solid #fcfcfc;
 }
 
 .about-me-column-1 {
@@ -411,6 +406,10 @@ footer {
     transition: all 2s ease-in-out;
 }
 
+#gallery h2{
+    text-align:center;
+}
+
 /* Contact Page styles start here*/
 .contact-methods {
     display: grid;
@@ -555,6 +554,7 @@ footer {
         grid-row: 1/2;
         text-align: center;
         letter-spacing: 4px;
+        font-size: 1.8rem;
     }
 
     .about-me-column-1 {
@@ -582,7 +582,7 @@ footer {
     #stories-container {
         grid-template-columns: 1fr;
         grid-row-gap: 1rem;
-        padding: 20px;
+        padding: 0 10px;
     }
 
     /* Packages page */
@@ -666,6 +666,14 @@ footer {
     #hero-image-text-overlay h2 {
         letter-spacing: 2px;
     }
+
+    /* Quote section */
+
+    #quote-section h2{
+        font-size:1.8rem;
+    }
+
+    /*About me section */
 
     #about-me-image {
         height: 200px;
