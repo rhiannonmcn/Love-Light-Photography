@@ -28,12 +28,32 @@ Love Light Photography consists of 5 page website with 4 pages that the user can
 
 * ### Typography
     There were two types of fonts chosen for this website. 'EB Garamond' was used for the body text and 'Cormorant Garamond' for the headings, which is only a slightly different version Garamond than the body text to provide emphasis. Both fonts fall back to 'sans-serif'. The Garamond fonts have a slightly luxurious feel to them and the serif detail, provides a small bit of complexity to the design but with making use of letter spacing and line heights to still keep it in line with the clean look.
-    
+
 # Features
+
+Love Light Phtography is designed and structured like a typical website, making it very natural and intuitive to use to entice the user to explore further.
 
 ## Navigation
 
+* The navigation menu is featured at the top of the page and contains the links to main content.
+
+* The logo is centered in the navigation bar and is clickable and links back to the homepage.
+
+* There are three variations of the navigation barfor different screen sizes, and each keep the same colour and design styles with only the structure changing to keep the user experience as smooth as possible.
+
 ## Home Page
+
+ * The Home Page is the landing page of the website and the first part that the user will see. It is designed to be welcoming and the purpose of the website easily determined.
+
+ * There is a large hero image chosen both for its style and colour scheme and tone to match the website itself immediately visible and on top of that the site name and catchy slogan.
+
+ * There is a bit of content peeking just above the fold to show users that there is more information on the page. This is a quote designed to give off the intended feel of the website to the user; essentially the ethos of by which the business stands by.
+
+ * There is a section to "Meet the Photographer" which is a succint about me section intended to put the user at ease, keep the welcoming vibe whilst still imparting useful information.
+
+ * The last seection on the Home Page is a Stories section, which provides three different testimonials.
+
+ * The aim of each of these sections of the Home Page is to create a feeling of welcoming and friendliness and to encourage the user to explore the website in the hopes of hitting that Contact Page.
 
 ## Packages Page
 
