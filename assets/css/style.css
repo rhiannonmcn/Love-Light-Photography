@@ -34,7 +34,7 @@ p {
 /* Main Menu and Logo*/
 
 #menu-links {
-    background-color: #597680;
+    background-color: #465d64;
     padding: 0 40px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -111,7 +111,7 @@ p {
 /* Footer section */
 
 footer {
-    background-color: #597680;
+    background-color: #465d64;
 }
 
 #footer-icons {
@@ -296,7 +296,7 @@ footer {
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: #597680;
+    background-color: #465d64;
     height: 100%;
     padding: 20px;
 }
