@@ -131,6 +131,7 @@ footer {
 #footer-icons img {
     width: 100%;
     max-width: 50px;
+    height:auto;
 }
 
 #footer-icons img:hover {
@@ -153,7 +154,7 @@ footer {
 }
 
 #hero-image {
-    background: url('../images/hero-image-home-page.jpg') no-repeat center top;
+    background: url('../images/hero-image.jpg') no-repeat center top;
     background-size: cover;
     height: 600px;
     width: 100%;
@@ -212,7 +213,7 @@ footer {
 }
 
 #about-me-image {
-    background: url('../images/about-me-image.jpg') no-repeat center center;
+    background: url('../images/about-me-photo.jpg') no-repeat center center;
     height: 300px;
     width: 300px;
     border-radius: 50%;
