@@ -72,7 +72,7 @@ p {
 }
 
 .active {
-    background-color: #6c93a0;
+    background-color: #55717a;
 }
 
 .navbar-links:hover {
@@ -122,6 +122,7 @@ footer {
     grid-column-gap: 1rem;
     height: 80px;
     padding: 10px;
+    margin-top:10px;
 }
 
 #footer-icons li {
