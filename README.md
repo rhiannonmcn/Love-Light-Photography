@@ -13,7 +13,7 @@ In this project I aim to deliver a professionaly developed website for users to 
 
 ## Design Prototype
 
-The design for this website were compiledin Adobe XD. The designs produced were low wireframes and a high fidelity wireframe for the homepage for desktop versions only.
+The design for this website were compiled in Adobe XD. The designs produced were low wireframes and a high fidelity wireframe for the homepage for desktop versions only.
 
 ## Site Structure
 
@@ -39,7 +39,7 @@ Love Light Phtography is designed and structured like a typical website, making 
 
 * The logo is centered in the navigation bar and is clickable and links back to the homepage.
 
-* There are three variations of the navigation barfor different screen sizes, and each keep the same colour and design styles with only the structure changing to keep the user experience as smooth as possible.
+* There are three variations of the navigation bar for different screen sizes, and each keep the same colour and design styles with only the structure changing to keep the user experience as smooth as possible.
 
 ## Home Page
 
@@ -55,7 +55,19 @@ Love Light Phtography is designed and structured like a typical website, making 
 
  * The aim of each of these sections of the Home Page is to create a feeling of welcoming and friendliness and to encourage the user to explore the website in the hopes of hitting that Contact Page.
 
+ * Each section is fully responsive, with the multiple column content naturally falling into a single column.
+
 ## Packages Page
+
+* The packages page is as described in its navigation link. It lists the available services in a clear manner.
+
+* The page has a clear title and short paragraphy introducing content. The language, colour and design used is intended to be friendly and easy to understand.
+
+* There is a list of the available packages, using clear colour design elements to distinguish the different packages, as well as headings, images and text.
+
+* It is fully responsive and each package section naturally falls into a single column, with the same clear colour design elements to distinguish each package.
+
+* This page is intended to impart the idea that this service is welcoming, friendly and the perfect fit for what they are looking for.
 
 ## Gallery Page
 
