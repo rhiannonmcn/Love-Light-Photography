@@ -46,7 +46,15 @@ In this project I aim to deliver a professionaly developed website for users to 
 
 ## Design Mock Up
 
-The design for this website were compiled in Adobe XD. The designs produced were low wireframes and a high fidelity wireframe for the homepage for desktop versions only.
+The design for this website were compiled in Adobe XD. The designs produced were low wireframes for desktop versions only. The final designs and structure differ from the wireframes due to developments during the construction of the website.
+
+![Home Page Low Fidelity Wireframne](assets/images/readme-images/home-page-low-fidelity.jpg)
+
+![Packages Page Low Fidelity Wireframe](assets/images/readme-images/services-low-fidelity.jpg)
+
+![Gallery Page Low Fidelity Wireframe](assets/images/readme-images/gallery-low-fidelity.jpg)
+
+![Contact Page Low Fidelity Wireframe](assets/images/readme-images/contact-low-fidelity.jpg)
 
 ## Site Structure
 
