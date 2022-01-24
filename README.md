@@ -40,6 +40,8 @@ You can view the live site here - <a href="https://rhiannonmcn.github.io/Love-Li
 
 In this project I aim to deliver a professionaly developed website for users to access a friendly but professional photography service. The main objective is to exhibit a proficiency in HTML AND CSS.
 
+[Back to top](<#contents>)
+
 # User Experience (UX)
 
 ## Design Mock Up
@@ -61,6 +63,8 @@ The final colour schem chosen was a dark teal with an off white text, as well as
 ### Typography
 
 There were two types of fonts chosen for this website. 'EB Garamond' was used for the body text and 'Cormorant Garamond' for the headings, which is only a slightly different version Garamond than the body text to provide emphasis. Both fonts fall back to 'sans-serif'. The Garamond fonts have a slightly luxurious feel to them and the serif detail, provides a small bit of complexity to the design but with making use of letter spacing and line heights to still keep it in line with the clean look.
+
+[Back to top](<#contents>)
 
 # Features
 
@@ -182,6 +186,8 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 ![Mobile Footer](assets/images/readme-images/footer-mobile.png)
 
+[Back to top](<#contents>)
+
 # Future Features
 
 * The Stories section on the Home Page could be made a bit more interactive with more stories that could be rotated through.
@@ -204,6 +210,8 @@ Each page, except the Home Page has a clear title when landing on the page and s
 * Gitpod - Used to develop the website.
 * GitBash - Terminal used to push changes to the GitHub repository.
 * Github - Used to host and deploy the website.
+
+[Back to top](<#contents>)
 
 # Testing
 
@@ -338,6 +346,8 @@ Initially testing with lighthouse threw up an error with regards Best Practices 
 
 It was recommended to add the rel=noopener any external links, which cleared the error.
 
+[Back to top](<#contents>)
+
 # Deployment
 
 The website was deployed to GitHub pages via the following methods:
@@ -348,7 +358,9 @@ The website was deployed to GitHub pages via the following methods:
 4. Click save.
 5. The page automatically displays the deployed link at the top once save is clicked.
 6. It can take up to 5 minutes to deploy.
-    
+
+[Back to top](<#contents>)
+
 # Credits
 
 * Fonts were sourced from [Google Fonts](https://fonts.google.com/)
@@ -362,6 +374,10 @@ The website was deployed to GitHub pages via the following methods:
 * Code for drawing a border inside a shape/image was from [CodeLab](https://www.tutorialrepublic.com/codelab.php?topic=faq&file=draw-border-inside-div-element-with-css)
 * Link to the quote by [Destin Sparks](https://twitter.com/DestinSparks/status/757136759406727168?cxt=HHwWgMCg7eD38YEVAAAA)
 
+[Back to top](<#contents>)
+
 # Acknowledgements
 
 This site, Love Light Photography was designed and developed in conjunction with the Full Stack Software Developer Diploma course (eccommerce) at the Code Institute. I would like to thank my mentor, my cohort facilitator, the members of our cohort, the Slack community and Code Institute for all their support.
+
+[Back to top](<#contents>)
