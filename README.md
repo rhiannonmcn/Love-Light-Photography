@@ -136,8 +136,19 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 ## Code Validation
 
-Love Light Photography has been validated via W3C HTML Validator and the W3C CSS Validator. Three minor errors, all the same error came up for three of the pages. 
+Love Light Photography has been validated via W3C HTML Validator and the W3C CSS Validator. There were 8 minor errors that came up for all of the pages. This was immediately corrected and documented down below.
 
+## Lighthouse Testing
+
+The website was also put through Lighthouse testing via Chrome Devtools which tests a site under 4 different headings; Performance, Accessibility, Best Practices and SEO and it tests it under mobile and desktop criteria.
+
+## Accessibility Testing
+
+[A11y](https://color.a11y.com/) was ussed to check the colour contrast on the website for accessibility purposes.
+
+## Responsive Testing
+
+Responsiveness was tested via a few different mediums manually, including Chrome Devtools, The viewport resizer chrome extension and [The Responsive Design Checker](https://responsivedesignchecker.com/) website. 
 # Deployment
 
 # Credits
