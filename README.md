@@ -208,15 +208,43 @@ Love Light Photography has been manually tested in Google Chrome, Microsoft Edge
     This resolved the error above but produced a new error. The one below.
 
     It said that the width and height attributes in the footer images produced " Expected a digit but saw p instead". Once I removed the px from the width and height attributes, it cleared that error up.
+### SVG Logo File
+    A logo for the site was created using Adobe Illustrator and exporting it as a SVG file, done so for the repsonsive ability of the svg file and the sharpness and quality of the image itself.
+
+    However there were issues with it showing up with a size of 0px.
+
+    The fix was founf here :(https://github.com/lokesh/lightbox2/issues/552) and fixed when I set an actual height and width to the file.
 
 ### Resonisiveness
     Chrome Devtools was initially used to test the responsiveness of the website. However it proved to be somewhat inconsistent with results despite no code being changed. Therefore another Chrome extension was used, Viweport Resizer and a website, Responsive Design Checker was used in conjunction with Chrome Devtools to make sure the website was fully responsive.
 
-    There was overflow issues that couldnt be dermined easily once certain screen sizes were reached, the mobile screen size. To help identify the overflow issues a piece of code was used to outline all the elements on a page, allowing the elements that didnt line up to be identified.
+    There was overflow issues that couldnt be dermined easily once certain screen sizes were reached, the mobile screen size. To help identify the overflow issues, the problem aws googled and answer found in [Stack Overflow](https://stackoverflow.com/questions/31458477/find-element-that-is-causing-the-showing-of-horizontal-scrollbar-in-google-chrom) and a piece of code was used to outline all the elements on a page, allowing the elements that didnt line up to be identified.
 
 # Deployment
 
+The website was deployed to GitHub pages via the following methods:
+
+1. Navigate to the Settings tab in the GitHub repository for the project.
+2. On the left hand side, scroll down to the pages tab.
+3. Under the Source tab, choose the branch called Main and in the dropdown beside it select the folder called Root.
+4. Click save.
+5. The page automatically displays the deployed link at the top once save is clicked.
+6. It can take up to 5 minutes to deploy.
+    
 # Credits
+
+* Fonts were sourced from [Google Fonts](https://fonts.google.com/)
+* All images from the website were sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/)
+* Images were compressed by [Tiny Png](https://tinypng.com/)
+* Colour palette was created by [coolors.co][https://coolors.co/]
+* Flexbox system was learned via youtube video from [LearnWebCode](https://www.youtube.com/watch?v=k32voqQhODc&ab_channel=LearnWebCode)
+* Flexbox Image grid from [Kweku Adaboh](https://kweada.medium.com/css-flexbox-image-grid-for-different-sized-images-ff48cbe52ed4)
+* CSS Grid code was learned via [Traversy Media][https://www.youtube.com/watch?v=jV8B24rSN5o&t=7s&ab_channel=TraversyMedia] and [CSS Tricks](https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/) 
+* Code for CSS transform scale propert comes from [Learn with Param](https://learnwithparam.com/blog/scale-elements-on-hover-using-css/#:~:text=Often%20we%20get%20a%20requirement%20to%20scale%20images,%2F%2F%20shrinking%20in%20size.shrink%3Ahover%20%7B%20transform%3A%20scale%280.8%29%3B%20%7D)
+* Code for drawing a border inside a shape/image was from [CodeLab](https://www.tutorialrepublic.com/codelab.php?topic=faq&file=draw-border-inside-div-element-with-css)
+* Link to the quote by [Destin Sparks](https://twitter.com/DestinSparks/status/757136759406727168?cxt=HHwWgMCg7eD38YEVAAAA)
+*
 
 # Acknowledgements
 
+This site, Love Light Photography was designed and developed in conjunction with the Full Stack Software Developer Diploma course (eccommerce) at the Code Institute. I would like to thank my mentor, my cohort facilitator, the members of our cohort, the Slack community and Code Institute for all their support.
