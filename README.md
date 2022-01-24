@@ -149,6 +149,71 @@ The website was also put through Lighthouse testing via Chrome Devtools which te
 ## Responsive Testing
 
 Responsiveness was tested via a few different mediums manually, including Chrome Devtools, The viewport resizer chrome extension and [The Responsive Design Checker](https://responsivedesignchecker.com/) website. 
+
+## Manual Testing
+
+In addition to the autmated process above, I carried out manual testing on the site as well.
+
+* Naviagtion Menu
+    * Verified that all the links link to the appropriate page with no broken links on all pages.
+    * Verified that the logo when clicked links back to the Home Page.
+    * Verified that the logo image has an alt text and fallback image for non browser support of the svg file.
+    * Verified that the hover effects are consistent on all links.
+    * Verified that the active page is highlighted.
+    * Verified that the navigation bar is full responsive.
+
+* Home Page
+    * Verified that the Hero image is not pixelated and is fully responsive.
+    * Verified that all images on the home page are optimised and have alt functions.
+    * Verified that all the elements are fully responsive
+
+* Packages Page
+    * Verified that all the images are optimised and have alt texts. 
+    *Verified that all the elements are fully responsive.
+
+* Gallery Page
+    * Verfied all the images are optimised and have alt texts.
+    * Verified that all elements are fully responsive.
+
+* Contact Page
+    * Verified that contact form cannot be submitted without the required information (First Name, Last Name and Email Address)
+    * Verified that once the information is submitted via contact form, that the GET function works correctly and retrieves the thank you page.
+    * Verified that the mailto function works correctly on the email link.
+    * Verified that the page is fully responsive.
+
+* Thank You Page
+    * Verified that the thank you page is linked correctly to the contact form.
+    * That the Thank You Page is fully responsive.
+
+* Footer
+    * Verrified that the email asset links properly with the mailto function.
+    * Verified that the social media links are all linked properly to the releveant social media home pages.
+    * Verified that all the social media links open in a new tab.
+
+* Browser Testing
+
+Love Light Photography has been manually tested in Google Chrome, Microsoft Edge, Mozilla Firefox and Safari.
+
+    * Verified that all images worked correctly
+    * Verified that design and structure was consistent across all browsers.
+    * Verfied responsiveness across all browsers.
+
+* Bugs Fixed
+
+### HTML Validation
+    The following error was presented once the website was placed through W3C HTML Validator.
+
+    The problem was googled and an answer found in stack overflow helped solve the issue. To rectify this the width and height attributes were added to the footer asset images.
+
+    This resolved the error above but produced a new error. The one below.
+
+    It said that the width and height attributes in the footer images produced " Expected a digit but saw p instead". Once I removed the px from the width and height attributes, it cleared that error up.
+
+### Resonisiveness
+    Chrome Devtools was initially used to test the responsiveness of the website. However it proved to be somewhat inconsistent with results despite no code being changed. Therefore another Chrome extension was used, Viweport Resizer and a website, Responsive Design Checker was used in conjunction with Chrome Devtools to make sure the website was fully responsive.
+
+    There was overflow issues that couldnt be dermined easily once certain screen sizes were reached, the mobile screen size. To help identify the overflow issues a piece of code was used to outline all the elements on a page, allowing the elements that didnt line up to be identified.
+
 # Deployment
 
 # Credits

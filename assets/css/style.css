@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=EB+Garamond&display=swap');
 
 * {
-    font-family: "EB Garamond", sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
     padding: 0;
@@ -13,14 +13,14 @@
 /*global styles across website*/
 
 h2 {
-    font-family: "Cormorant Garamond"sans-serif;
+    font-family: 'Cormorant Garamond', sans-serif;
     font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 6px;
 }
 
 h3 {
-    font-family: "Cormorant Garamond", sans-serif;
+    font-family: 'Cormorant Garamond', sans-serif;
     font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -88,7 +88,7 @@ p {
 /* Page H1s excluding the homepage */
 
 .page-h1 {
-    font-family: "Cormorant Garamond", sans-serif;
+    font-family: 'Cormorant Garamond', sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     font-size: 5rem;
@@ -122,7 +122,7 @@ footer {
     grid-column-gap: 1rem;
     height: 80px;
     padding: 10px;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 #footer-icons li {
@@ -132,7 +132,7 @@ footer {
 #footer-icons img {
     width: 100%;
     max-width: 50px;
-    height:auto;
+    height: auto;
 }
 
 #footer-icons img:hover {
@@ -174,7 +174,7 @@ footer {
 }
 
 #hero-image-text-overlay h1 {
-    font-family: "Cormorant Garamond", sans-serif;
+    font-family: 'Cormorant Garamond', sans-serif;
     font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -194,9 +194,9 @@ footer {
 }
 
 #quote-section h2 {
-    font-family: "Cormorant Garamond", sans-serif;
+    font-family: 'Cormorant Garamond', sans-serif;
     font-style: italic;
-    font-size:2rem;
+    font-size: 2rem;
     line-height: 2.5rem;
     color: #34454A;
     text-align: center;
@@ -408,8 +408,8 @@ footer {
     transition: all 2s ease-in-out;
 }
 
-#gallery h2{
-    text-align:center;
+#gallery h2 {
+    text-align: center;
 }
 
 /* Contact Page styles start here*/
@@ -671,8 +671,8 @@ footer {
 
     /* Quote section */
 
-    #quote-section h2{
-        font-size:1.8rem;
+    #quote-section h2 {
+        font-size: 1.8rem;
     }
 
     /*About me section */
