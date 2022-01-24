@@ -7,7 +7,36 @@ You can view the live site here - <a href="https://rhiannonmcn.github.io/Love-Li
 
 # Contents
 
-*[**Objective**](<#objective>)
+* [Objective](<#objective>)
+* [User Experience](<#user-experience-ux>)
+    * [Design](<#design-mock-up>)
+    * [Site Structure](<#site-structure>)
+    * [Design Choices](<#design-choices>)
+    *   [Colour Scheme](<#colour-scheme>)
+    *   [Typography](<#typography>)
+* [Features](<#features>)
+    * [Navigation Menu](<#navigation-menu>)
+    * [Home Page](<#home-page>)
+    * [About Page](<#about-page>)
+    * [Packages Page](<#packages-page>)
+    * [Gallery Page](<#gallery-page>)
+    * [Contact Page](<#contact-page>)
+    * [Thank You Page](<#thank-you-page>)
+    * [Footer](<#footer>)
+* [Future Features](<#future-features>)
+* [Technologies Used](<#technologies-used>)
+* [Testing](<#testing>)
+    * [Code Validation](<#code-validation>)
+    * [Lighthouse Testing](<#lighthouse-testing>)
+    * [Responsive Testing](<#responsive-testing>)
+    * [Accessibility Testing](<#accessibility-testing>)
+    * [Manual Testing](<#manual-testing>)
+    * [Bugs Fixed](<#bugs-fixed>)
+* [Deployment](<#deployment>)
+* [Credits](<#credits>)
+* [Acknowledgements](<#acknowledgements>)
+
+
 
 # Objective
 
@@ -15,7 +44,7 @@ In this project I aim to deliver a professionaly developed website for users to 
 
 # User Experience (UX)
 
-## Design Prototype
+## Design Mock Up
 
 The design for this website were compiled in Adobe XD. The designs produced were low wireframes and a high fidelity wireframe for the homepage for desktop versions only.
 
@@ -202,7 +231,7 @@ Love Light Photography has been manually tested in Google Chrome, Microsoft Edge
     * Verified that design and structure was consistent across all browsers.
     * Verfied responsiveness across all browsers.
 
-* Bugs Fixed
+## Bugs Fixed
 
 ### HTML Validation
     The following error was presented once the website was placed through W3C HTML Validator.
