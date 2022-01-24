@@ -330,7 +330,11 @@ While the no problems were indicated in the CSS file in GitPod, it did show up i
 
  However there were issues with it showing up with a size of 0px.
 
- The fix was founf here :(https://github.com/lokesh/lightbox2/issues/552) and fixed when I set an actual height and width to the file.
+ The fix was found here :(https://github.com/lokesh/lightbox2/issues/552) and fixed when I set an actual height and width to the file.
+
+ While this fixed the issue in Chrome and Mircrosoft Edge, it did not in Firefox. Upon further study the width and height that was set to 100% had no point of reference and thus setting the height and width attribute in the html fixed the problem in firefox.
+
+ ![Firefox SVG logo issue](assets/images/readme-images/css-validator.jpg)
 
 ### Responsiveness
 
