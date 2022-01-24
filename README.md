@@ -36,8 +36,6 @@ You can view the live site here - <a href="https://rhiannonmcn.github.io/Love-Li
 * [Credits](<#credits>)
 * [Acknowledgements](<#acknowledgements>)
 
-
-
 # Objective
 
 In this project I aim to deliver a professionaly developed website for users to access a friendly but professional photography service. The main objective is to exhibit a proficiency in HTML AND CSS.
@@ -225,7 +223,7 @@ In addition to the autmated process above, I carried out manual testing on the s
 
 * Browser Testing
 
-Love Light Photography has been manually tested in Google Chrome, Microsoft Edge, Mozilla Firefox and Safari on both desktop and mobile.
+    * Love Light Photography has been manually tested in Google Chrome, Microsoft Edge, Mozilla Firefox and Safari on both desktop and mobile.
 
     * Verified that all images worked correctly
     * Verified that design and structure was consistent across all browsers.
@@ -234,24 +232,28 @@ Love Light Photography has been manually tested in Google Chrome, Microsoft Edge
 ## Bugs Fixed
 
 ### HTML Validation
-    The following error was presented once the website was placed through W3C HTML Validator.
+    
+The following error was presented once the website was placed through W3C HTML Validator.
 
-    The problem was googled and an answer found in stack overflow helped solve the issue. To rectify this the width and height attributes were added to the footer asset images.
+The problem was googled and an answer found in stack overflow helped solve the issue. To rectify this the width and height attributes were added to the footer asset images.
 
-    This resolved the error above but produced a new error. The one below.
+This resolved the error above but produced a new error. The one below.
 
-    It said that the width and height attributes in the footer images produced " Expected a digit but saw p instead". Once I removed the px from the width and height attributes, it cleared that error up.
+ It said that the width and height attributes in the footer images produced " Expected a digit but saw p instead". Once I removed the px from the width and height attributes, it cleared that error up.
+
 ### SVG Logo File
-    A logo for the site was created using Adobe Illustrator and exporting it as a SVG file, done so for the repsonsive ability of the svg file and the sharpness and quality of the image itself.
 
-    However there were issues with it showing up with a size of 0px.
+ A logo for the site was created using Adobe Illustrator and exporting it as a SVG file, done so for the repsonsive ability of the svg file and the sharpness and quality of the image itself.
 
-    The fix was founf here :(https://github.com/lokesh/lightbox2/issues/552) and fixed when I set an actual height and width to the file.
+ However there were issues with it showing up with a size of 0px.
+
+ The fix was founf here :(https://github.com/lokesh/lightbox2/issues/552) and fixed when I set an actual height and width to the file.
 
 ### Resonisiveness
-    Chrome Devtools was initially used to test the responsiveness of the website. However it proved to be somewhat inconsistent with results despite no code being changed. Therefore another Chrome extension was used, Viweport Resizer and a website, Responsive Design Checker was used in conjunction with Chrome Devtools to make sure the website was fully responsive.
 
-    There was overflow issues that couldnt be dermined easily once certain screen sizes were reached, the mobile screen size. To help identify the overflow issues, the problem aws googled and answer found in [Stack Overflow](https://stackoverflow.com/questions/31458477/find-element-that-is-causing-the-showing-of-horizontal-scrollbar-in-google-chrom) and a piece of code was used to outline all the elements on a page, allowing the elements that didnt line up to be identified.
+Chrome Devtools was initially used to test the responsiveness of the website. However it proved to be somewhat inconsistent with results despite no code being changed. Therefore another Chrome extension was used, Viweport Resizer and a website, Responsive Design Checker was used in conjunction with Chrome Devtools to make sure the website was fully responsive.
+
+There was overflow issues that couldnt be dermined easily once certain screen sizes were reached, the mobile screen size. To help identify the overflow issues, the problem aws googled and answer found in [Stack Overflow](https://stackoverflow.com/questions/31458477/find-element-that-is-causing-the-showing-of-horizontal-scrollbar-in-google-chrom) and a piece of code was used to outline all the elements on a page, allowing the elements that didnt line up to be identified.
 
 # Deployment
 
