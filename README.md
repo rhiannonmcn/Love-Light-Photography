@@ -53,12 +53,14 @@ Love Light Photography consists of 5 page website with 4 pages that the user can
 ## Design Choices
 
 ### Colour Scheme
-    The final colour schem chosen was a dark teal with an off white text, as well as off white and light grey to segment pages. Two lighter teal colours were used on the navigation bar to highlight the active page and for the hover effect. This colour scheme is very on trend with the clean and modern look but still has that hint of warmth by sticking to the warmer tones of teal, greys and whites.
+
+The final colour schem chosen was a dark teal with an off white text, as well as off white and light grey to segment pages. Two lighter teal colours were used on the navigation bar to highlight the active page and for the hover effect. This colour scheme is very on trend with the clean and modern look but still has that hint of warmth by sticking to the warmer tones of teal, greys and whites.
 
 ![Colour palette image of 6 colours](assets/images/readme-images/colour-palette.png)
 
 ### Typography
-    There were two types of fonts chosen for this website. 'EB Garamond' was used for the body text and 'Cormorant Garamond' for the headings, which is only a slightly different version Garamond than the body text to provide emphasis. Both fonts fall back to 'sans-serif'. The Garamond fonts have a slightly luxurious feel to them and the serif detail, provides a small bit of complexity to the design but with making use of letter spacing and line heights to still keep it in line with the clean look.
+
+There were two types of fonts chosen for this website. 'EB Garamond' was used for the body text and 'Cormorant Garamond' for the headings, which is only a slightly different version Garamond than the body text to provide emphasis. Both fonts fall back to 'sans-serif'. The Garamond fonts have a slightly luxurious feel to them and the serif detail, provides a small bit of complexity to the design but with making use of letter spacing and line heights to still keep it in line with the clean look.
 
 # Features
 
@@ -73,6 +75,12 @@ Each page, except the Home Page has a clear title when landing on the page and s
 * The logo is centered in the navigation bar and is clickable and links back to the homepage.
 
 * There are three variations of the navigation bar for different screen sizes, and each keep the same colour and design styles with only the structure changing to keep the user experience as smooth as possible.
+
+![Desktop Navbar](assets/images/readme-images/navbar-desktop.png)
+
+![Medium Screen Navbar](assets/images/readme-images/navbar-medium-screen.png)
+
+![Mobile Navbar](assets/images/readme-images/navbar-mobile.png)
 
 ## Home Page
 
@@ -90,6 +98,10 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
  * Each section is fully responsive, with the multiple column content naturally falling into a single column.
 
+ ![Desktop Homepage](assets/images/readme-images/home-page.png)
+
+ ![Mobile Homepage](assets/images/readme-images/home-page-mobile.png)
+
 ## Packages Page
 
 * The packages page is as described in its navigation link. It lists the available services in a clear manner.
@@ -100,6 +112,8 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 * This page is intended to impart the idea that this service is welcoming, friendly and the perfect fit for what the user is looking for.
 
+![Desktop Packages Page](assets/images/readme-images/packages-page.png)
+
 ## Gallery Page
 
 * The Gallery page provides the user with some sample photography from the photographer. It gives a mix of different events in one large gallery.
@@ -108,6 +122,13 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 * The Galloery page is fully responsive and as the screen reduces in size the columns of images reduce until mobile size where the images are full width.
 
+![Desktop Gallery Page](assets/images/readme-images/gallery-page.png)
+
+<details><summary>Mobile Gallery Page</summary>
+
+![Mobile Gallery Page](assets/images/readme-images/gallery-page-mobile.png)
+
+</details>
 
 ## Contact Page
 
@@ -119,18 +140,25 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 * The form also uses a GET function to link to a Thank You page. There is no actual information submitted when the user completes the form and the thank you page is purely to show how the user will interact with the form.
 
-
 * Beside the contact form there are practical details such as a dummy phone number and email. The email has a mailto link which opens to the users default mail software on their device, againing using a dummy email for the purpose of user experience.
 
 * There is also a google map frame beneath the Location section.
 
 * The page is fully responsive with the sections stacking upon each other as the screen size is reduced, keeping the same design elements which distinguish between the different sections.
 
+![Desktop Contact Page](assets/images/readme-images/contact-page.png)
+
+![Mobile Contact Page](assets/images/readme-images/contact-page-mobile.png)
+
 ## Thank You Page
 
 * The Thank You page cannot be accessed by the user from any links on the website. It can only be accessed by submitting the contact form on the Contact page.
 
 * The style and design of the website is consistent, with the navigation bar on top and footer on the bottom so as to allow the user to navigate back to the main website.
+
+![Desktop Thank You Page](assets/images/readme-images/thank-you-page.png)
+
+![Mobile Thank You Page](assets/images/readme-images/thank-you-page-mobile.png)
 
 ## Footer
 
@@ -142,6 +170,10 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 * It also contains an email link which uses a mailto function to open the devices preferred email software. The email used is just a dummy email to show how the user interacts with the link.
 
+![Desktop Footer](assets/images/readme-images/footer.png)
+
+![Mobile Footer](assets/images/readme-images/footer-mobile.png)
+
 # Future Features
 
 * The Stories section on the Home Page could be made a bit more interactive with more stories that could be rotated through.
@@ -149,6 +181,8 @@ Each page, except the Home Page has a clear title when landing on the page and s
 * The gallery can be expanded whereby a lightbox function can be implemented to achieve a greate user experience and interactivity with the images.
 
 * A Log In could be added whereby clients would have access to their photos of their event in a private gallery. 
+
+* The mobile navigation menu could be changed into a burger menu.
 
 # Technologies Used
 
@@ -169,13 +203,25 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 Love Light Photography has been validated via W3C HTML Validator and the W3C CSS Validator. There were 8 minor errors that came up for all of the pages. This was immediately corrected and documented down below.
 
+![W3C HTML Validator](assets/images/readme-images/html-validator.png)
+
+![W3C CSS Validator](assets/images/readme-images/css-validator.jpg)
+
 ## Lighthouse Testing
 
 The website was also put through Lighthouse testing via Chrome Devtools which tests a site under 4 different headings; Performance, Accessibility, Best Practices and SEO and it tests it under mobile and desktop criteria.
 
+![Lighthouse testing](assets/images/readme-images/lighthouse-results.png)
+
 ## Accessibility Testing
 
-[A11y](https://color.a11y.com/) was ussed to check the colour contrast on the website for accessibility purposes.
+[A11y](https://color.a11y.com/) was used to check the colour contrast on the website for accessibility purposes.
+
+![A11y Contrast validator](assets/images/readme-images/color-contrast-validator.png)
+
+[Adobe Color](https://color.adobe.com/create/color-accessibility) was also used to test that the colour scheme was accessible for those with different types of blindness.
+
+![Adobe Color Blind Safe Checker](assets/images/readme-images/adobe-color-blind-safe.png)
 
 ## Responsive Testing
 
@@ -224,7 +270,6 @@ In addition to the autmated process above, I carried out manual testing on the s
 * Browser Testing
 
     * Love Light Photography has been manually tested in Google Chrome, Microsoft Edge, Mozilla Firefox and Safari on both desktop and mobile.
-
     * Verified that all images worked correctly
     * Verified that design and structure was consistent across all browsers.
     * Verfied responsiveness across all browsers.
@@ -239,7 +284,17 @@ The problem was googled and an answer found in stack overflow helped solve the i
 
 This resolved the error above but produced a new error. The one below.
 
- It said that the width and height attributes in the footer images produced " Expected a digit but saw p instead". Once I removed the px from the width and height attributes, it cleared that error up.
+![HTML Validation Error 2](assets/images/readme-images/html-validator-error-2.png)
+
+It said that the width and height attributes in the footer images produced " Expected a digit but saw p instead". Once I removed the px from the width and height attributes, it cleared that error up.
+
+### CSS Validation
+
+The following error cropped up when the site was initially put through CSS validation.
+
+![CSS Validation error](assets/images/readme-images/css-validator-issue.png)
+
+While the no problems were indicated in the CSS file in GitPod, it did show up in validation. To fix this error, in the font-family declaration, I changed all the double quote around the family family to single quotes and the error cleared.
 
 ### SVG Logo File
 
@@ -249,11 +304,31 @@ This resolved the error above but produced a new error. The one below.
 
  The fix was founf here :(https://github.com/lokesh/lightbox2/issues/552) and fixed when I set an actual height and width to the file.
 
-### Resonisiveness
+### Responsiveness
 
 Chrome Devtools was initially used to test the responsiveness of the website. However it proved to be somewhat inconsistent with results despite no code being changed. Therefore another Chrome extension was used, Viweport Resizer and a website, Responsive Design Checker was used in conjunction with Chrome Devtools to make sure the website was fully responsive.
 
-There was overflow issues that couldnt be dermined easily once certain screen sizes were reached, the mobile screen size. To help identify the overflow issues, the problem aws googled and answer found in [Stack Overflow](https://stackoverflow.com/questions/31458477/find-element-that-is-causing-the-showing-of-horizontal-scrollbar-in-google-chrom) and a piece of code was used to outline all the elements on a page, allowing the elements that didnt line up to be identified.
+![Chrome Devtools responsive viewer](assets/images/readme-images/responsive-issue-2.png)
+
+![Viewport Resizer Chrome Extension](assets/images/readme-images/responsiveness-issue.png)
+
+![Responsive Design Checker](assets/images/readme-images/responsive-issue-3.png)
+
+There were overflow issues that couldnt be determined easily once certain screen sizes were reached, the mobile screen size. To help identify the overflow issues, the problem aws googled and answer found in [Stack Overflow](https://stackoverflow.com/questions/31458477/find-element-that-is-causing-the-showing-of-horizontal-scrollbar-in-google-chrom) and a piece of code was used to outline all the elements on a page, allowing the elements that didnt line up to be identified.
+
+![Outline Code Example](assets/images/readme-images/outline-code.png)
+
+![Outline Code Desktop Design](assets/images/readme-images/overflow-outline-2.png)
+
+![Outline Code Mobile Design](assets/images/readme-images/overflow-outline.png)
+
+### Testing -Lighthouse
+
+Initially testing with lighthouse threw up an error with regards Best Practices and thus affecting also the Performance section of the lighthouse testing. 
+
+![Lighthouse initial testing](assets/images/readme-images/rel-noopener-fix.png)
+
+It was recommended to add the rel=noopener any external links, which cleared the error.
 
 # Deployment
 
