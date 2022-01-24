@@ -100,7 +100,11 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
  ![Desktop Homepage](assets/images/readme-images/home-page.png)
 
+ <details><summary>Mobile Home Page</summary>
+
  ![Mobile Homepage](assets/images/readme-images/home-page-mobile.png)
+
+ </details>
 
 ## Packages Page
 
@@ -148,7 +152,11 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 ![Desktop Contact Page](assets/images/readme-images/contact-page.png)
 
+<details><summary>Mobile Contact Page</summary>
+
 ![Mobile Contact Page](assets/images/readme-images/contact-page-mobile.png)
+
+</details>
 
 ## Thank You Page
 
