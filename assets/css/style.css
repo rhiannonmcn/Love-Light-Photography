@@ -8,6 +8,7 @@
     margin: 0;
     box-sizing: border-box;
     color: #34454A;
+    outline: 1px solid #f00 !important;
 }
 
 /*global styles across website*/
@@ -330,6 +331,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     justify-self: center;
     align-self: center;
+    padding: 20px 0;
 }
 
 .package-container h2 {
@@ -683,6 +685,11 @@ footer {
     }
 
     /* Packages page styles */
+
+    .package-options img {
+        height: 250px;
+        width: 250px;
+    }
 
     .package-container {
         grid-template-columns: 1fr;

@@ -188,10 +188,10 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 * HTML5 - Delivers the structure and content for the website.
 * CSS3 - Provides the styling for the website.
-* Adobe XD - Used to create wireframes for the website
-* Adobe Illustrator - Used to create the Logo and social media assets for the website.
+* [Adobe XD](https://www.adobe.com/ie/products/xd.html) - Used to create wireframes for the website
+* [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html) - Used to create the Logo and social media assets for the website.
 * [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) - Used to test the contrast and a blind safe colour check for the colour palette used.
-* Adobe Lightroom - Used to optimise and resize images for screen.
+* [Adobe Lightroom](https://www.adobe.com/ie/products/photoshop-lightroom.html) - Used to optimise and resize images for screen.
 * [Tiny PNG](https://tinypng.com/) - Used to further compress optimised images.
 * Gitpod - Used to develop the website.
 * GitBash - Terminal used to push changes to the GitHub repository.
@@ -306,7 +306,7 @@ While the no problems were indicated in the CSS file in GitPod, it did show up i
 
 ### Responsiveness
 
-Chrome Devtools was initially used to test the responsiveness of the website. However it proved to be somewhat inconsistent with results despite no code being changed. Therefore another Chrome extension was used, Viweport Resizer and a website, Responsive Design Checker was used in conjunction with Chrome Devtools to make sure the website was fully responsive.
+Chrome Devtools was initially used to test the responsiveness of the website. However it proved to be somewhat inconsistent with results despite no code being changed. Therefore another Chrome extension was used, [Viewport Resizer](https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=en) and a website, [Responsive Design Checker](https://responsivedesignchecker.com/) was used in conjunction with Chrome Devtools to make sure the website was fully responsive.
 
 ![Chrome Devtools responsive viewer](assets/images/readme-images/responsive-issue-2.png)
 
