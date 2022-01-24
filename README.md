@@ -33,6 +33,8 @@ Love Light Photography consists of 5 page website with 4 pages that the user can
 
 Love Light Phtography is designed and structured like a typical website, making it very natural and intuitive to use to entice the user to explore further.
 
+Each page, except the Home Page has a clear title when landing on the page and short paragraph introducing the content. The language, colour and design used is intended to be friendly and easy to understand.
+
 ## Navigation
 
 * The navigation menu is featured at the top of the page and contains the links to main content.
@@ -61,8 +63,6 @@ Love Light Phtography is designed and structured like a typical website, making 
 
 * The packages page is as described in its navigation link. It lists the available services in a clear manner.
 
-* The page has a clear title and short paragraphy introducing content. The language, colour and design used is intended to be friendly and easy to understand.
-
 * There is a list of the available packages, using clear colour design elements to distinguish the different packages, as well as headings, images and text.
 
 * It is fully responsive and each package section naturally falls into a single column, with the same clear colour design elements to distinguish each package.
@@ -71,15 +71,72 @@ Love Light Phtography is designed and structured like a typical website, making 
 
 ## Gallery Page
 
+* The Gallery page provides the user with some sample photography from the photographer. It gives a mix of different events in one large gallery.
+
+* The gallery is easy to use, with a hover function on the images drawing the users eye to the cursor.
+
+* The Galloery page is fully responsive and as the screen reduces in size the columns of images reduce until mobile size where the images are full width.
+
+
 ## Contact Page
+
+* The Contact page is where we want the user to end up. As there is no booking system or online store to purchase a package we want them to contact the business.
+
+*  The contact form is modelled off the usual contact form layout, with four input fields; First Name, Last Name, Email Address and Your Message.
+
+* The contact form cannot be submitted unless the fields are filled correctly using the required attribute.
+
+* The form also uses a GET function to link to a Thank You page. There is no actual information submitted when the user completes the form and the thank you page is purely to show how the user will interact with the form.
+
+
+* Beside the contact form there are practical details such as a dummy phone number and email. The email has a mailto link which opens to the users default mail software on their device, againing using a dummy email for the purpose of user experience.
+
+* There is also a google map frame beneath the Location section.
+
+* The page is fully responsive with the sections stacking upon each other as the screen size is reduced, keeping the same design elements which distinguish between the different sections.
+
+## Thank You Page
+
+* The Thank You page cannot be accessed by the user from any links on the website. It can only be accessed by submitting the contact form on the Contact page.
+
+* The style and design of the website is consistent, with the navigation bar on top and footer on the bottom so as to allow the user to navigate back to the main website.
 
 ## Footer
 
+* The Footer contains the social media links.
+
+* For better UX design, each of the social media links open in a new tab.
+
+* The Facebook, Instagram and Youtube links are purely for educational purposes of the website and only navigate to the home page of each of the sites.
+
+* It also contains an email link which uses a mailto function to open the devices preferred email software. The email used is just a dummy email to show how the user interacts with the link.
+
 # Future Features
+
+* The Stories section on the Home Page could be made a bit more interactive with more stories that could be rotated through.
+
+* The gallery can be expanded whereby a lightbox function can be implemented to achieve a greate user experience and interactivity with the images.
+
+* A Log In could be added whereby clients would have access to their photos of their event in a private gallery. 
 
 # Technologies Used
 
+* HTML5 - Delivers the structure and content for the website.
+* CSS3 - Provides the styling for the website.
+* Adobe XD - Used to create wireframes for the website
+* Adobe Illustrator - Used to create the Logo and social media assets for the website.
+* [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) - Used to test the contrast and a blind safe colour check for the colour palette used.
+* Adobe Lightroom - Used to optimise and resize images for screen.
+* [Tiny PNG](https://tinypng.com/) - Used to further compress optimised images.
+* Gitpod - Used to develop the website.
+* GitBash - Terminal used to push changes to the GitHub repository.
+* Github - Used to host and deploy the website.
+
 # Testing
+
+## Code Validation
+
+Love Light Photography has been validated via W3C HTML Validator and the W3C CSS Validator. Three minor errors, all the same error came up for three of the pages. 
 
 # Deployment
 
