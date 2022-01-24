@@ -67,7 +67,7 @@ Love Light Phtography is designed and structured like a typical website, making 
 
 * It is fully responsive and each package section naturally falls into a single column, with the same clear colour design elements to distinguish each package.
 
-* This page is intended to impart the idea that this service is welcoming, friendly and the perfect fit for what they are looking for.
+* This page is intended to impart the idea that this service is welcoming, friendly and the perfect fit for what the user is looking for.
 
 ## Gallery Page
 
