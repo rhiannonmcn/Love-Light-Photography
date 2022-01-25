@@ -9,7 +9,9 @@ You can view the live site here - <a href="https://rhiannonmcn.github.io/Love-Li
 
 * [Objective](<#objective>)
 * [User Experience](<#user-experience-ux>)
-    * [Design](<#design-mock-up>)
+    * [User Stories](<#user-stories>)
+    * [Site Aims](<#site-aims>)
+    * [Design Wireframes](<#design-wireframes>)
     * [Site Structure](<#site-structure>)
     * [Design Choices](<#design-choices>)
     *   [Colour Scheme](<#colour-scheme>)
@@ -38,13 +40,29 @@ You can view the live site here - <a href="https://rhiannonmcn.github.io/Love-Li
 
 # Objective
 
-In this project I aim to deliver a professionaly developed website for users to access a friendly but professional photography service. The main objective is to exhibit a proficiency in HTML AND CSS.
+The aim of this project is to deliver a professionaly developed website for users to access a friendly but professional photography service.
 
 [Back to top](<#contents>)
 
 # User Experience (UX)
 
-## Design Prototype
+## User Stories
+
+* A user should be able to determine the sites purpose immediately
+* A user should be able to easily and intuitively navigate the site
+* A user should be able to identify the content of each page easily
+* A user should feel comfortable contacting the business for more information or to book an event 
+
+## Site Aims
+
+* To provide the user with all the information needed to contact the business to book an event/photographer
+* To offer a clear method to contact the business
+* To sell the business to the user in a warm, friendly and inviting manner
+* To provide information on the photographer
+* To supply a visual portfolio of work done
+* To deliver a starting guide to the cost of services
+
+## Design Wireframes
 
 The design and structure for this website were compiled in Adobe XD. The designs produced were low wireframes for desktop versions only. The final designs and structure differ from the wireframes due to developments during the construction of the website.
 
