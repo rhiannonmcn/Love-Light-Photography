@@ -54,7 +54,7 @@ The aim of this project is to deliver a professionaly developed website for user
 
 ## User Stories
 
-* A user should be able to determine the sites purpose immediately
+* A user should be able to determine the site's purpose immediately
 * A user should be able to easily and intuitively navigate the site
 * A user should be able to identify the content of each page easily
 * A user should feel comfortable contacting the business for more information or to book an event 
@@ -92,13 +92,13 @@ Love Light Photography consists of 5 page website with 4 pages that the user can
 
 ### Colour Scheme
 
-The final colour schem chosen was a dark teal with an off white text, as well as off white and light grey to segment pages. Two lighter teal colours were used on the navigation bar to highlight the active page and for the hover effect. This colour scheme is very on trend with the clean and modern look but still has that hint of warmth by sticking to the warmer tones of teal, greys and whites.
+The final colour scheme chosen was a dark teal with an off white text, as well as an off white and light grey to segment pages. Two lighter teal colours were used on the navigation bar to highlight the active page and for the hover effect. This colour scheme is very on trend with the clean and modern look but still has that hint of warmth by sticking to the warmer tones of teal, greys and whites.
 
 ![Colour palette image of 6 colours](assets/images/readme-images/colour-palette.png)
 
 ### Typography
 
-There were two types of fonts chosen for this website. 'EB Garamond' was used for the body text and 'Cormorant Garamond' for the headings, which is only a slightly different version Garamond than the body text to provide emphasis. Both fonts fall back to 'sans-serif'. The Garamond fonts have a slightly luxurious feel to them and the serif detail, provides a small bit of complexity to the design but with making use of letter spacing and line heights to still keep it in line with the clean look.
+There were two types of fonts chosen for this website. 'EB Garamond' was used for the body of the text and 'Cormorant Garamond' for the headings, which is a slightly different version Garamond than the body text to provide emphasis. Both fonts fall back to 'sans-serif'. The Garamond fonts have a slightly luxurious feel to them and the serif detail, provides a small bit of complexity to the design but with making use of letter spacing and line heights to still keep it in line with the clean look.
 
 [Back to top](<#contents>)
 
@@ -106,7 +106,7 @@ There were two types of fonts chosen for this website. 'EB Garamond' was used fo
 
 Love Light Phtography is designed and structured like a typical website, making it very natural and intuitive to use to entice the user to explore further.
 
-Each page, except the Home Page has a clear title when landing on the page and short paragraph introducing the content. The language, colour and design used is intended to be friendly and easy to understand.
+Each page, except the Home Page, has a clear heading when landing on the page and short paragraph introducing the content. The language, colour and design used is intended to be friendly and easy to understand.
 
 ## Navigation
 
@@ -126,17 +126,17 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
  * The Home Page is the landing page of the website and the first part that the user will see. It is designed to be welcoming and the purpose of the website easily determined.
 
- * There is a large hero image chosen both for its style and colour scheme and tone to match the website itself immediately visible and on top of that the site name and catchy slogan.
+ * There is a large hero image chosen for its' style, colour scheme and tone to match the website itself and it's immediately visible. Overlayed on the hero image is site name and a catchy slogan.
 
- * There is a bit of content peeking just above the fold to show users that there is more information on the page. This is a quote designed to give off the intended feel of the website to the user; essentially the ethos of by which the business stands by.
+ * There is a bit of content peeking just above the fold to show users that there is more information on the page. This is a quote and it's designed to give off a particular feel of the website to the user; essentially the ethos of by which the business stands by.
 
- * There is a section to "Meet the Photographer" which is a succint about me section intended to put the user at ease, keep the welcoming vibe whilst still imparting useful information.
+ * There is a section "Meet the Photographer" which is a succint About Me section intended to put the user at ease, keep the welcoming vibe whilst still imparting useful information and engaging with the user.
 
  * The last seection on the Home Page is a Stories section, which provides three different testimonials.
 
  * The aim of each of these sections of the Home Page is to create a feeling of welcoming and friendliness and to encourage the user to explore the website in the hopes of hitting that Contact Page.
 
- * Each section is fully responsive, with the multiple column content naturally falling into a single column.
+ * Each section is fully responsive, with the multiple column content naturally falling into single column content.
 
  ![Desktop Homepage](assets/images/readme-images/home-page.png)
 
@@ -150,21 +150,21 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 * The packages page is as described in its navigation link. It lists the available services in a clear manner.
 
-* There is a list of the available packages, using clear colour design elements to distinguish the different packages, as well as headings, images and text.
+* There is a list of the available packages, using clear alternate colour design elements to distinguish the different packages, as well as headings, images and text.
 
-* It is fully responsive and each package section naturally falls into a single column, with the same clear colour design elements to distinguish each package.
+* It is fully responsive and each package section contents naturally fall into a single column, with the same clear colour design elements to distinguish each package.
 
-* This page is intended to impart the idea that this service is welcoming, friendly and the perfect fit for what the user is looking for.
+* This page is intended to impart the idea that this service is welcoming, friendly and the perfect fit for what the user is looking for but that the business can be approached for more information related to their particular event/occasion.
 
 ![Desktop Packages Page](assets/images/readme-images/packages-page.png)
 
 ## Gallery Page
 
-* The Gallery page provides the user with some sample photography from the photographer. It gives a mix of different events in one large gallery.
+* The Gallery page provides the user with some sample photography from the photographer. It gives a mix of different events and occasions in one large gallery.
 
 * The gallery is easy to use, with a hover function on the images drawing the users eye to the cursor.
 
-* The Gallery page is fully responsive and as the screen reduces in size the columns of images reduce until mobile size where the images are full width.
+* The Gallery page is fully responsive and as the screen reduces in size the columns of images reduce until the images are full width in mobile devices.
 
 ![Desktop Gallery Page](assets/images/readme-images/gallery-page.png)
 
@@ -182,11 +182,11 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 * The contact form cannot be submitted unless the fields are filled correctly using the required attribute.
 
-* The form also uses a GET function to link to a Thank You page. There is no actual information submitted when the user completes the form and the thank you page is purely to show how the user will interact with the form.
+* The form also uses a GET function to link to a Thank You page to mimic the effect of actually submitting the form . There is no actual information submitted when the user completes the form and the thank you page is purely to show how the user will interact with the form.
 
-* Beside the contact form there are practical details such as a dummy phone number and email. The email has a mailto link which opens to the users default mail software on their device, againing using a dummy email for the purpose of user experience.
+* Beside the contact form there are practical contact details such as a dummy phone number and email. The email has a mailto link which opens to the users default mail software on their device, againing using a dummy email for the purpose of user experience.
 
-* There is also a google map frame beneath the Location section.
+* There is also a google map iframe beneath the Location section.
 
 * The page is fully responsive with the sections stacking upon each other as the screen size is reduced, keeping the same design elements which distinguish between the different sections.
 
@@ -200,7 +200,7 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 ## Thank You Page
 
-* The Thank You page cannot be accessed by the user from any links on the website. It can only be accessed by submitting the contact form on the Contact page.
+* The Thank You page cannot be accessed by the user from any links on the website. It can only be accessed by submitting the contact form on the Contact page which uses a GET function to retrieve the page to imitate the contact form submission.
 
 * The style and design of the website is consistent, with the navigation bar on top and footer on the bottom so as to allow the user to navigate back to the main website.
 
@@ -214,7 +214,7 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 * For better UX design, each of the social media links open in a new tab.
 
-* The Facebook, Instagram and Youtube links are purely for educational purposes of the website and only navigate to the home page of each of the sites.
+* The Facebook, Instagram and Youtube links are purely for the educational purposes of the website and only navigate to the home page of each of the sites.
 
 * It also contains an email link which uses a mailto function to open the devices preferred email software. The email used is just a dummy email to show how the user interacts with the link.
 
@@ -226,13 +226,13 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 # Future Features
 
-* The Stories section on the Home Page could be made a bit more interactive with more stories that could be rotated through.
+* The Stories section on the Home Page could be made a bit more interactive with more stories that could be rotated through with only 3 stories showing at a time on the homepage.
 
 * The gallery can be expanded whereby a lightbox function can be implemented to achieve a greate user experience and interactivity with the images.
 
-* The gallery could also be categorised by Event
+* The gallery could also be categorised by event/occasion for better UX, to allow the user to navigate directly to photos of interest to them.
 
-* A Log In could be added whereby clients would have access to their photos of their event in a private gallery. 
+* A Log In could be added whereby clients would have access to the photos of their event in a private gallery, will will provide a swifter service for the business, cutting out another physical meeting with clients to choose their photos.
 
 * The mobile navigation menu could be changed into a burger menu.
 
@@ -257,7 +257,7 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 ## Code Validation
 
-Love Light Photography has been validated via W3C HTML Validator and the W3C CSS Validator. There were 8 minor errors that came up for all of the pages. This was immediately corrected and documented down below.
+Love Light Photography has been validated via W3C HTML Validator and the W3C CSS Validator. There were 8 minor errors that came up for all of the pages. This was immediately corrected and documented down below in [Bugs Fixed](<#bugs-fixed>).
 
 ![W3C HTML Validator](assets/images/readme-images/html-validator.png)
 
@@ -271,21 +271,21 @@ The website was also put through Lighthouse testing via Chrome Devtools which te
 
 ## Accessibility Testing
 
-[A11y](https://color.a11y.com/) was used to check the colour contrast on the website for accessibility purposes.
+[A11y](https://color.a11y.com/) was used to check the colour contrast on the website for accessibility purposes which it passed.
 
 ![A11y Contrast validator](assets/images/readme-images/color-contrast-validator.png)
 
-[Adobe Color](https://color.adobe.com/create/color-accessibility) was also used to test that the colour scheme was accessible for those with different types of blindness.
+[Adobe Color](https://color.adobe.com/create/color-accessibility) was also used to test that the colour scheme was accessible for those with different types of blindness which it also succeded in doing.
 
 ![Adobe Color Blind Safe Checker](assets/images/readme-images/adobe-color-blind-safe.png)
 
 ## Responsive Testing
 
-Responsiveness was tested via a few different mediums manually, including Chrome Devtools, The viewport resizer chrome extension and [The Responsive Design Checker](https://responsivedesignchecker.com/) website. 
+Responsiveness was tested via a few different mediums manually, including Chrome Devtools, [The Viewport Resizer](https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=en) chrome extension and [The Responsive Design Checker](https://responsivedesignchecker.com/) website. 
 
 ## Manual Testing
 
-In addition to the autmated process above, I carried out manual testing on the site as well.
+In addition to the automated process above, manual testing was carried out on the site as well.
 
 * Naviagtion Menu
     * Verified that all the links link to the appropriate page with no broken links on all pages.
@@ -302,7 +302,7 @@ In addition to the autmated process above, I carried out manual testing on the s
 
 * Packages Page
     * Verified that all the images are optimised and have alt texts. 
-    *Verified that all the elements are fully responsive.
+    * Verified that all the elements are fully responsive.
 
 * Gallery Page
     * Verfied all the images are optimised and have alt texts.
@@ -316,7 +316,7 @@ In addition to the autmated process above, I carried out manual testing on the s
 
 * Thank You Page
     * Verified that the thank you page is linked correctly to the contact form.
-    * That the Thank You Page is fully responsive.
+    * Verified that the Thank You Page is fully responsive.
 
 * Footer
     * Verrified that the email asset links properly with the mailto function.
@@ -346,17 +346,17 @@ The following error cropped up when the site was initially put through CSS valid
 
 ![CSS Validation error](assets/images/readme-images/css-validator-issue.png)
 
-While the no problems were indicated in the CSS file in GitPod, it did show up in validation. To fix this error, in the font-family declaration, I changed all the double quote around the font family to single quotes and the error cleared.
+While no problems were indicated in the CSS file in GitPod, it did show up in validation. To fix this error, in the font-family declaration, I changed all the double quote around the font family to single quotes and the error cleared.
 
 ### SVG Logo File
 
- A logo for the site was created using Adobe Illustrator and exporting it as a SVG file, done so for the repsonsive ability of the svg file and the sharpness and quality of the image itself.
+ A logo for the site was created using Adobe Illustrator and it was exported as a SVG file, done so for the repsonsive ability of the svg file and the sharpness and quality of the image itself.
 
- However there were issues with it showing up with a size of 0px.
+ However there were issues with it showing up with a size of 0px in browsers.
 
- The fix was found here : (https://github.com/lokesh/lightbox2/issues/552) and fixed when I set an actual height and width to the img tag.
+ The fix was found here : (https://github.com/lokesh/lightbox2/issues/552) and it corrected when an actual height and width was set to the img tag.
 
- While this fixed the issue in Chrome and Mircrosoft Edge, it did not in Firefox. Upon further study the width and height that was set to 100% had no point of reference and thus setting the height and width attribute in the html fixed the problem in firefox.
+ While this fixed the issue in Chrome and Mircrosoft Edge, it did not in Firefox. Upon further study the width and height that was set to 100% had no point of reference and thus setting the height and width attribute in the html fixed the problem in firefox as the percentage widths in the CSS then had a point of reference.
 
  ![Firefox SVG logo issue](assets/images/readme-images/css-validator.jpg)
 
@@ -370,7 +370,7 @@ Chrome Devtools was initially used to test the responsiveness of the website. Ho
 
 ![Responsive Design Checker](assets/images/readme-images/responsive-issue-3.png)
 
-There were overflow issues that couldnt be determined easily once certain screen sizes were reached, the mobile screen size. To help identify the overflow issues, the problem aws googled and answer found in [Stack Overflow](https://stackoverflow.com/questions/31458477/find-element-that-is-causing-the-showing-of-horizontal-scrollbar-in-google-chrom) and a piece of code was used to outline all the elements on a page, allowing the elements that didnt line up to be identified.
+There were overflow issues that couldnt be determined easily once certain screen sizes were reached, particularly the mobile screen size. To help identify the overflow issues, the problem was googled and answer found in [Stack Overflow](https://stackoverflow.com/questions/31458477/find-element-that-is-causing-the-showing-of-horizontal-scrollbar-in-google-chrom) and a piece of code was used to outline all the elements on a page, allowing the elements that didnt line up to be identified.
 
 ![Outline Code Example](assets/images/readme-images/outline-code.png)
 
@@ -384,7 +384,7 @@ Initially testing with lighthouse threw up an error with regards Best Practices 
 
 ![Lighthouse initial testing](assets/images/readme-images/rel-noopener-fix.png)
 
-It was recommended to add the rel=noopener any external links, which cleared the error.
+It was recommended to add the rel=noopener to any external links, which cleared the error.
 
 [Back to top](<#contents>)
 
