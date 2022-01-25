@@ -336,10 +336,6 @@ In addition to the autmated process above, I carried out manual testing on the s
     
 The following error was presented once the website was placed through W3C HTML Validator.
 
-The problem was googled and an answer found in stack overflow helped solve the issue. To rectify this the width and height attributes were added to the footer asset images.
-
-This resolved the error above but produced a new error. The one below.
-
 ![HTML Validation Error 2](assets/images/readme-images/html-validator-error-2.png)
 
 It said that the width and height attributes in the footer images produced " Expected a digit but saw p instead". Once I removed the px from the width and height attributes, it cleared that error up.
@@ -350,7 +346,7 @@ The following error cropped up when the site was initially put through CSS valid
 
 ![CSS Validation error](assets/images/readme-images/css-validator-issue.png)
 
-While the no problems were indicated in the CSS file in GitPod, it did show up in validation. To fix this error, in the font-family declaration, I changed all the double quote around the family family to single quotes and the error cleared.
+While the no problems were indicated in the CSS file in GitPod, it did show up in validation. To fix this error, in the font-family declaration, I changed all the double quote around the font family to single quotes and the error cleared.
 
 ### SVG Logo File
 
@@ -358,7 +354,7 @@ While the no problems were indicated in the CSS file in GitPod, it did show up i
 
  However there were issues with it showing up with a size of 0px.
 
- The fix was found here :(https://github.com/lokesh/lightbox2/issues/552) and fixed when I set an actual height and width to the file.
+ The fix was found here : (https://github.com/lokesh/lightbox2/issues/552) and fixed when I set an actual height and width to the img tag.
 
  While this fixed the issue in Chrome and Mircrosoft Edge, it did not in Firefox. Upon further study the width and height that was set to 100% had no point of reference and thus setting the height and width attribute in the html fixed the problem in firefox.
 
