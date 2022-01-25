@@ -9,6 +9,7 @@ You can view the live site here - <a href="https://rhiannonmcn.github.io/Love-Li
 
 * [Objective](<#objective>)
 * [User Experience](<#user-experience-ux>)
+    * [Target Audience](<#target-audience>)
     * [User Stories](<#user-stories>)
     * [Site Aims](<#site-aims>)
     * [Design Wireframes](<#design-wireframes>)
@@ -46,6 +47,11 @@ The aim of this project is to deliver a professionaly developed website for user
 
 # User Experience (UX)
 
+## Target Audience
+
+* Users that are looking for a professional but inviting photography service to cover their event or celebration.
+* Users that are looking for a professional photographer to cover their business event
+
 ## User Stories
 
 * A user should be able to determine the sites purpose immediately
@@ -64,7 +70,7 @@ The aim of this project is to deliver a professionaly developed website for user
 
 ## Design Wireframes
 
-The design and structure for this website were compiled in Adobe XD. The designs produced were low wireframes for desktop versions only. The final designs and structure differ from the wireframes due to developments during the construction of the website.
+The design and structure for this website was created in Adobe XD. The designs produced were low fidelity wireframes for desktop versions only. The final designs and structure differ from the wireframes due to developments during the construction of the website.
 
 <details><summary> Low Fidelity Wireframes </summary>
 
@@ -158,7 +164,7 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 * The gallery is easy to use, with a hover function on the images drawing the users eye to the cursor.
 
-* The Galloery page is fully responsive and as the screen reduces in size the columns of images reduce until mobile size where the images are full width.
+* The Gallery page is fully responsive and as the screen reduces in size the columns of images reduce until mobile size where the images are full width.
 
 ![Desktop Gallery Page](assets/images/readme-images/gallery-page.png)
 
@@ -170,7 +176,7 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 ## Contact Page
 
-* The Contact page is where we want the user to end up. As there is no booking system or online store to purchase a package we want them to contact the business.
+* The Contact page is should be where the user ends up. As there is no booking system or online store to purchase a package the aim is for them to reach out to the business.
 
 *  The contact form is modelled off the usual contact form layout, with four input fields; First Name, Last Name, Email Address and Your Message.
 
@@ -224,9 +230,13 @@ Each page, except the Home Page has a clear title when landing on the page and s
 
 * The gallery can be expanded whereby a lightbox function can be implemented to achieve a greate user experience and interactivity with the images.
 
+* The gallery could also be categorised by Event
+
 * A Log In could be added whereby clients would have access to their photos of their event in a private gallery. 
 
 * The mobile navigation menu could be changed into a burger menu.
+
+* An eccomerce online shop could be added for the sale of stock prints.
 
 # Technologies Used
 
