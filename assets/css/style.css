@@ -1,3 +1,5 @@
+/* Import fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=EB+Garamond&display=swap');
 
 * {
@@ -10,7 +12,7 @@
     color: #34454A;
 }
 
-/*global styles across website*/
+/*Global styles across website*/
 
 h2 {
     font-family: 'Cormorant Garamond', sans-serif;
