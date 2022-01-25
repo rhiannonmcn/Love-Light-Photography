@@ -348,6 +348,31 @@ The following error cropped up when the site was initially put through CSS valid
 
 While no problems were indicated in the CSS file in GitPod, it did show up in validation. To fix this error, in the font-family declaration, I changed all the double quote around the font family to single quotes and the error cleared.
 
+### Lighthouse Testing
+The website was testing through lighthouse and initial scores were fluctuating between the low greens to the orange on a few of the pages. Upon further inspectaion, these were on the pages with more images on. Both these results were in the mobile and desktop testing.
+
+![Lighthouse Testing Image 1](assets/images/readme-images/desktop-lighthouse-test-gallery-2.png)
+
+![Lighthouse Testing Image 2](assets/images/readme-images/desktop-lighthouse-test-gallery-3.png)
+
+The errors shown were:
+1. Serve images in next-gen formats
+2. Properly sized images
+3. Serve static assets with an efficient cache policy
+4. Image elements do not have specific width and height
+
+* Problem 1
+    * This would improve the score however upon research it was best to leave my images as JPEG files, as this is the best file format for colour, depth and clarity of photos which is extremely important for a photography business website. The images however were exported as progressive JPEG files to allow the browser to load a simple version of the image before loading the full resolution photo. A lot of next-gen file formats are also currently not supported by a lot of browsers.
+
+* Problem 2
+    * This problem was initially addressed by running the photos through lightroom and exporting them for screen and compressing them using [Tiny.png](https://tinypng.com/). This was still not enough, however so they were brought into photoshop and were cropped to exact sizes, exported as progressive JPEG files and compressed again via tiny.png. This cleared the warning.
+
+* Problem 3
+    * Caching is a problem that could not be solved as it's the host's issue, in this case Github pages controls the problem.
+
+* Problem 4
+    * This was fixed by adding width and height attributes to image tags and thus the warning was cleared.
+
 ### SVG Logo File
 
  A logo for the site was created using Adobe Illustrator and it was exported as a SVG file, done so for the repsonsive ability of the svg file and the sharpness and quality of the image itself.
