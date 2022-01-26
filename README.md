@@ -244,7 +244,7 @@ Each page, except the Home Page, has a clear heading when landing on the page an
 * CSS3 - Provides the styling for the website.
 * [Adobe XD](https://www.adobe.com/ie/products/xd.html) - Used to create wireframes for the website
 * [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html) - Used to create the Logo and social media assets for the website.
-* [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html)
+* [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html) - used to resize images and export them as progressive JPEG files.
 * [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) - Used to test the contrast and a blind safe colour check for the colour palette used.
 * [Adobe Lightroom](https://www.adobe.com/ie/products/photoshop-lightroom.html) - Used to optimise and resize images for screen.
 * [Tiny PNG](https://tinypng.com/) - Used to further compress optimised images.
