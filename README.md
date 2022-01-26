@@ -244,6 +244,7 @@ Each page, except the Home Page, has a clear heading when landing on the page an
 * CSS3 - Provides the styling for the website.
 * [Adobe XD](https://www.adobe.com/ie/products/xd.html) - Used to create wireframes for the website
 * [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html) - Used to create the Logo and social media assets for the website.
+* [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html)
 * [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) - Used to test the contrast and a blind safe colour check for the colour palette used.
 * [Adobe Lightroom](https://www.adobe.com/ie/products/photoshop-lightroom.html) - Used to optimise and resize images for screen.
 * [Tiny PNG](https://tinypng.com/) - Used to further compress optimised images.
@@ -391,7 +392,7 @@ The errors shown were:
  While this fixed the issue in Chrome and Mircrosoft Edge, it did not in Firefox.
  
  ![Firefox SVG logo issue](assets/images/readme-images/firefox-issue-2.png)
- 
+
  Upon further study the width and height that was set to 100% had no point of reference and thus setting the height and width attribute in the html fixed the problem in firefox as the percentage widths in the CSS then had a point of reference.
 
 ### Responsiveness
