@@ -1,5 +1,5 @@
 # **_Love Light Photography - Project Portfolio 1 - HTML & CSS_**
-Love light photography is a small profesional photography business that offers a wide range of photography services. This site targets the average individual who is looking to capture their event with high quality photography, with a professional but friendly and approachable manner, with a means to see samples of photographs and contact the photographer directly.
+Love light photography is a small profesional photography business that offers a wide range of photography services. This site targets the average individual who is looking to capture their event with high quality photography, in a professional but friendly and approachable manner, with a means to see samples of work done and contact to contact the business directly.
 
 You can view the live site here - <a href="https://rhiannonmcn.github.io/Love-Light-Photography/" target="_blank"> Love Light Photography </a>
 
@@ -349,7 +349,14 @@ The following error cropped up when the site was initially put through CSS valid
 While no problems were indicated in the CSS file in GitPod, it did show up in validation. To fix this error, in the font-family declaration, I changed all the double quote around the font family to single quotes and the error cleared.
 
 ### Lighthouse Testing
-The website was testing through lighthouse and initial scores were fluctuating between the low greens to the orange on a few of the pages. Upon further inspectaion, these were on the pages with more images on. Both these results were in the mobile and desktop testing.
+
+The first error that cropped up with lighthouse testing with regards Best Practices and thus affecting also the Performance section. This error was across all pages and had to do with external links and security.
+
+![Lighthouse initial testing](assets/images/readme-images/rel-noopener-fix.png)
+
+It was recommended to add the rel=noopener to any external links, which cleared the error.
+
+As well as this, the initial scores were fluctuating between the low greens to the orange on a few of the pages. Upon further inspection, these were on the pages which held a large quantity of images, mainly the Gallery Page and Packages Page. Both these results were in the mobile and desktop testing.
 
 ![Lighthouse Testing Image 1](assets/images/readme-images/desktop-lighthouse-test-gallery-2.png)
 
@@ -361,16 +368,16 @@ The errors shown were:
 3. Serve static assets with an efficient cache policy
 4. Image elements do not have specific width and height
 
-* Problem 1
-    * This would improve the score however upon research it was best to leave my images as JPEG files, as this is the best file format for colour, depth and clarity of photos which is extremely important for a photography business website. The images however were exported as progressive JPEG files to allow the browser to load a simple version of the image before loading the full resolution photo. A lot of next-gen file formats are also currently not supported by a lot of browsers.
+* Problem 1 -Serve images in next-gen formats
+    * Serving images in next-gen file formats like webp would improve the score however upon research, it was best to leave my images as JPEG files, as this is the best file format for colour, depth and clarity of photos which is extremely important for a photography business website. The images however were exported as progressive JPEG files to allow the browser to load a simple version of the image before loading the full resolution photo. A lot of next-gen file formats are also currently not supported by a lot of browsers.
 
-* Problem 2
+* Problem 2 - Properly sized images
     * This problem was initially addressed by running the photos through lightroom and exporting them for screen and compressing them using [Tiny.png](https://tinypng.com/). This was still not enough, however so they were brought into photoshop and were cropped to exact sizes, exported as progressive JPEG files and compressed again via tiny.png. This cleared the warning.
 
-* Problem 3
+* Problem 3 - Serve static assets with an efficient cache policy
     * Caching is a problem that could not be solved as it's the host's issue, in this case Github pages controls the problem.
 
-* Problem 4
+* Problem 4 - Image elements do not have specific width and height
     * This was fixed by adding width and height attributes to image tags and thus the warning was cleared.
 
 ### SVG Logo File
@@ -381,9 +388,11 @@ The errors shown were:
 
  The fix was found here : (https://github.com/lokesh/lightbox2/issues/552) and it corrected when an actual height and width was set to the img tag.
 
- While this fixed the issue in Chrome and Mircrosoft Edge, it did not in Firefox. Upon further study the width and height that was set to 100% had no point of reference and thus setting the height and width attribute in the html fixed the problem in firefox as the percentage widths in the CSS then had a point of reference.
-
- ![Firefox SVG logo issue](assets/images/readme-images/css-validator.jpg)
+ While this fixed the issue in Chrome and Mircrosoft Edge, it did not in Firefox.
+ 
+ ![Firefox SVG logo issue](assets/images/readme-images/firefox-issue-2.png)
+ 
+ Upon further study the width and height that was set to 100% had no point of reference and thus setting the height and width attribute in the html fixed the problem in firefox as the percentage widths in the CSS then had a point of reference.
 
 ### Responsiveness
 
@@ -402,14 +411,6 @@ There were overflow issues that couldnt be determined easily once certain screen
 ![Outline Code Desktop Design](assets/images/readme-images/overflow-outline-2.png)
 
 ![Outline Code Mobile Design](assets/images/readme-images/overflow-outline.png)
-
-### Testing -Lighthouse
-
-Initially testing with lighthouse threw up an error with regards Best Practices and thus affecting also the Performance section of the lighthouse testing. 
-
-![Lighthouse initial testing](assets/images/readme-images/rel-noopener-fix.png)
-
-It was recommended to add the rel=noopener to any external links, which cleared the error.
 
 [Back to top](<#contents>)
 
